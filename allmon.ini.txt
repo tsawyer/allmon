@@ -1,0 +1,11 @@
+[1000]
+host=10.10.10.10:5038
+user=admin
+passwd=password
+voter=no
+[1001]
+host=10.10.10.11:5038
+user=admin
+passwd=password
+voter=yes
+
