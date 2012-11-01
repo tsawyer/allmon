@@ -3,8 +3,14 @@
 include('allmon.inc.php');
 #print "<pre>"; print_r($_GET); print "</pre>";
 
+// Sanity check
+if (empty($_GET['node']) && empty($_GET['group'])) {
+    die ("No group or node provided.\n");
+}
+
 // Read parameters passed to us
-$node = $_GET['node'];
+$node = @trim(strip_tags($_GET['node']));
+$group = @trim(strip_tags($_GET['group']));
 
 // Get Allstar database file
 $db = "astdb.txt";
@@ -21,23 +27,57 @@ if (file_exists($db)) {
     fclose($fh);
 }
 
-// Read config INI file
+// Read allmon INI file
 if (!file_exists('allmon.ini')) {
     die("Couldn't load ini file.\n");
 }
 $config = parse_ini_file('allmon.ini', true);
+#print "<pre>"; print_r($config); print "</pre>";
 
-#print "<pre>"; print_r($config[$node]); print "</pre>";
+// If it's a group build a list of nodes
+$nodes = array();
+if (!empty($group)) {
+    // Read Groups INI file
+    if (!file_exists('groups.ini')) {
+        die("Couldn't load group ini file.\n");
+    }
+    $gconfig = parse_ini_file('groups.ini', true);
+    
+    $group = $_GET['group'];
+    $nodes = split(",", $gconfig[$group]['nodes']);
+    #print "<pre>"; print_r($nodes); print "</pre>";
+    if (count($nodes) > 0) {
+        print "<table class=\"gridtable\">\n";
+        foreach ($nodes as $node) {
+            if (isset($_COOKIE['allmon_loggedin']) && $_COOKIE['allmon_loggedin'] == 'yes') {
+                $colspan = 8;
+            } else {
+                $colspan = 7;
+            }
+            
+            print "<tr><th colspan='$colspan'>Node $node</th></tr>\n";
+            // Open a socket to Asterisk Manager
+            $fp = connect($config[$node]['host']);
+            login($fp, $config[$node]['user'], $config[$node]['passwd']);
 
-// Open a socket to Asterisk Manager
-$fp = connect($config[$node]['host']);
-login($fp, $config[$node]['user'], $config[$node]['passwd']);
+            $response = getNode($fp, $node);
+            printNode($node, $response);
+        }
+        print "</table>";
+    }
+} else {
+    // Open a socket to Asterisk Manager
+    $fp = connect($config[$node]['host']);
+    login($fp, $config[$node]['user'], $config[$node]['passwd']);
 
-$response = getNode($fp, $node);
-printNode($node, $response);
+    $response = getNode($fp, $node);
+    print "<table class='gridtable'>";
+    printNode($node, $response);
+    print "</table>";
+}
 exit;
 
-// Get repeater status for each of our nodes
+// Get status for this $node
 function getNode($fp, $node) {
     
     if ((@fwrite($fp,"ACTION: RptStatus\r\nCOMMAND: XStat\r\nNODE: $node\r\n\r\n")) > 0 ) {
@@ -73,11 +113,10 @@ function getNode($fp, $node) {
 
 
 // Ready to print, let's go
-function printNode ($ourNodeNum, $connectedNodes) {
-    $info = getAstInfo($ourNodeNum);
+function printNode ($localNode, $connectedNodes) {
+    $info = getAstInfo($localNode);
     if (isset($_COOKIE['allmon_loggedin']) && $_COOKIE['allmon_loggedin'] == 'yes') {
-        print "<table class='gridtable'>
-        <tr>
+        print "<tr>
         <th>Discon</th>
         <th>Node</th>
         <th>Node Information</th>
@@ -88,8 +127,7 @@ function printNode ($ourNodeNum, $connectedNodes) {
         <th>Mode</th>
         </tr>\n";
     } else {
-        print "<table class='gridtable'>
-        <tr>
+        print "<tr>
         <th>Node</th>
         <th>Node Information</th>
         <th>Received</th>
@@ -166,8 +204,8 @@ function printNode ($ourNodeNum, $connectedNodes) {
         print "$tr\n";
         if (isset($_COOKIE['allmon_loggedin']) && $_COOKIE['allmon_loggedin'] == 'yes') {
             if ($node['link'] == 'ESTABLISHED') {
-                $hrefLink=$ourNodeNum . "#" . $node['node'];
-                #print "<td align='center'><a href='#' onClick=\"disconnect('$ourNodeNum, ". $node['node'] . "')\">X</a></td>\n";
+                $hrefLink=$localNode . "#" . $node['node'];
+                #print "<td align='center'><a href='#' onClick=\"disconnect('$localNode, ". $node['node'] . "')\">X</a></td>\n";
                 print "<td align='center'><a href='$hrefLink' class='disconnect'>X</a></td>\n";
                 #print "<td align='center'>" . $node['node'] . "' class='disconnect'>X</a></td>\n";
             } else {
@@ -183,7 +221,6 @@ function printNode ($ourNodeNum, $connectedNodes) {
         print "<td>" . $node['mode'] . "</td>\n";
         print "</tr>\n";
     }
-    print "</table><br/>\n";
 }
 #print "<pre>cookie: "; print_r($_COOKIE); print "</pre>";
 

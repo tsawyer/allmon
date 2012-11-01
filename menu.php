@@ -1,8 +1,20 @@
 <div id="menu">
 <?php
-$current_url = array_pop(explode('/', $_SERVER['REQUEST_URI']));
+$current_url = urldecode(array_pop(explode('/', $_SERVER['REQUEST_URI'])));
 
-// Read INI file
+// Read groups INI file
+$groups = array();
+if (file_exists('groups.ini')) {
+    $arr = parse_ini_file('groups.ini', true);
+    #print "<pre>"; print_r($arr); print "</pre>";
+
+    // Groups are combined to a single menu item.
+    foreach($arr as $gname => $data) {
+        $groups[] = $gname;
+    }
+}
+
+// Read allmon INI file
 if (!file_exists('allmon.ini')) {
     die("Couldn't load ini file.\n");
 }
@@ -17,19 +29,31 @@ if (count($config) == 0) {
 $items = array();
 $i=0;
 foreach($config as $n => $data) {
-    $items[$i]['node']=$n;
-    $items[$i]['url'] = "link.php?$n";
-    if ($data['voter']) {
+    if ($data['menu'] == 1) {
+        $items[$i]['node']=$n;
+        $items[$i]['url'] = "link.php?node=$n";
+        if ($data['voter']) {
+            $i++;
+            $items[$i]['node'] = "$n Voter";
+            $items[$i]['url'] = "voter.php?node=$n";
+        }
         $i++;
-        $items[$i]['node'] = "$n Voter";
-        $items[$i]['url'] = "voter.php?$n";
+    }
+}
+
+// Add in groups if any
+if (count($groups) > 0) {
+    foreach ($groups as $group) {
+        $items[$i]['node'] = $group;
+        $items[$i]['url'] = "link.php?group=$group";
     }
     $i++;
 }
+
+// Add about.php tp menu
 $items[$i]['node'] = "About";
 $items[$i]['url'] = "about.php";
 
-#print "<pre>"; print_r($items); print "</pre>";
 ?>
 <ul>
 <?php 
@@ -45,3 +69,4 @@ foreach ($items as $item) {
 </ul>
 </div>
 <div class="clearer"></div>
+<?php #print "<pre>data: "; print_r($current_url); print "</pre>"; ?>

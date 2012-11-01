@@ -1,12 +1,12 @@
 <?php 
 include "header.php";
 
-$node = array_pop(explode('?', $_SERVER['REQUEST_URI']));
+$node = @trim(strip_tags($_GET['node']));
 $nodeURL = "http://stats.allstarlink.org/nodeinfo.cgi?node=$node";
 
 // If no node number use first non-voter in INI
-if (!preg_match("/^\d+$/", $node)) {
-    die ("Please provide voter node number. (ie voter.php?1234)");
+if (empty($node)) {
+    die ("Please provide voter node number. (ie voter.php?node=1234)");
 }
 
 // Get Allstar database file

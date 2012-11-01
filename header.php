@@ -1,11 +1,13 @@
 <?php
 // Set title 
-$uri = array_pop(explode('/', $_SERVER['REQUEST_URI']));
+$uri = urldecode(array_pop(explode('/', $_SERVER['REQUEST_URI'])));
 $pageTitle = strtoupper($_SERVER['SERVER_NAME']) . " | "; 
-if (preg_match("/voter\.php\?(\d+)$/", $uri, $matches)) {
+if (preg_match("/voter\.php\?node=(\d+)$/", $uri, $matches)) {
     $pageTitle .= "Voter " . $matches[1];
-} elseif (preg_match("/link\.php\?(\d+)$/", $uri, $matches)) {
+} elseif (preg_match("/link\.php\?node=(\d+)$/", $uri, $matches)) {
     $pageTitle .= "Node " . $matches[1];
+} elseif (preg_match("/link\.php\?group=(.*)$/", $uri, $matches)) {
+    $pageTitle .= $matches[1];
 } elseif (preg_match("/about/", $uri, $matches)) {
     $pageTitle .= ucfirst($matches[0]);
 }
@@ -19,7 +21,7 @@ if (preg_match("/voter\.php\?(\d+)$/", $uri, $matches)) {
 <meta name="description" content="Allstar node manager">
 <meta name="keywords" content="allstar monitor, app_rpt, asterisk">
 <meta name="author" content="Tim Sawyer, WD6AWP">
-<link type="text/css"rel="stylesheet" href="allmon.css">
+<link type="text/css" rel="stylesheet" href="allmon.css">
 <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
