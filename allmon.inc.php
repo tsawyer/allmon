@@ -23,9 +23,9 @@ function connect($host) {
     }
     
     // Open a manager socket.
-    $i = 1;
-    $fp = @fsockopen($ip, $port);
-    if (!$fp) {
+    $fp = @fsockopen($ip, $port, $errno, $errstr, 5);
+    #print "ERROR: $errno $errstr";
+    if ($fp === FALSE) {
         die("Could not connect.\n");
     }
     return ($fp);

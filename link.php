@@ -49,6 +49,7 @@ if (!empty($group)) {
     $group = $_GET['group'];
     $nodes = split(",", $gconfig[$group]['nodes']);
 }
+#print_r($nodes); print "$type $node";
 
 ?>
 <script type="text/javascript">
@@ -130,5 +131,5 @@ if (count($nodes) > 0) {
 <!-- Command response area -->
 <div id="test_area"></div>
 
-<div id="link_list">Loading node.</div>
+<div id="link_list">Loading...</div>
 <?php include "footer.php"; ?>
