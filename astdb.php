@@ -12,8 +12,7 @@ fclose($fh);
 
 // Save the data
 $db = "astdb.txt";
-#$db1 = "/var/www_tnp/html/astdb.txt";
-if (! $fh = fopen($db, 'c')) {
+if (! $fh = fopen($db, 'w')) {
     die("Cannot open $db.");
 }
 if (!flock($fh, LOCK_EX))  {
@@ -24,5 +23,4 @@ if (fwrite($fh, $contents) === FALSE) {
     die ("Cannot write $db.");
 }
 fclose($fh);
-#copy($db, $db1);
 ?>

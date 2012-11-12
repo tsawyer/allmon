@@ -43,7 +43,7 @@ Install instructions
    directory, on the command line do: htpasswd -c .htpasswd username
  - Make sure you have the latest Allstar source from svn
  - Edit /etc/asterisk/manager.conf
- - Mark astdb.php executable and add to cron. RUn just once a day please. ie
+ - Mark astdb.php executable and add to cron. Run just once a day please. ie
    01 03 * * * cd /var/www/html/allmon; ./astdb.php
 
 Allstar Database
@@ -51,8 +51,8 @@ Allstar Database
    Node Information column will only show the IP address of the remote nodes.
  - The included database (astdb.txt) is likely old by the time you install.
    It should be periodically updated with the astdb.php script. Please 
-   set your cron job to a reasonable time, like once a day and manuallly 
-   run when you need the occasional adhoc updte.
+   set your cron job to a reasonable time, like once a day and manually 
+   run when you need the occasional adhoc update.
    
 Known Bugs
  - If you have only a group and no individual nodes displayed (menu=yes) 
