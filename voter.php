@@ -26,14 +26,15 @@ if (file_exists($db)) {
 
 if (array_key_exists($node, $astdb)) {
     $nodeRow = $astdb[$node];
-    $info = $nodeRow[4] . ' ' . $nodeRow[5] . ' ' . $nodeRow[6];
+    $info = $nodeRow[1] . ' ' . $nodeRow[2] . ' ' . $nodeRow[3];
 }
 
 ?>
 <script>
     // prevent IE caching
     $.ajaxSetup ({  
-        cache: false  
+        cache: false,
+        timeout: 3000
     });    
 
     // when DOM is ready

@@ -266,7 +266,7 @@ function getAstInfo($nodeNum, $node=array()) {
     // Build info string
     if (array_key_exists($nodeNum, $astdb)) {
         $dbNode = $astdb[$nodeNum];
-        $info = $dbNode[4] . ' ' . $dbNode[5] . ' ' . $dbNode[6];
+        $info = $dbNode[1] . ' ' . $dbNode[2] . ' ' . $dbNode[3];
     } elseif ($nodeNum > 3000000) {
         $info = "Echolink";
     } elseif (!empty($node['ip'])) {

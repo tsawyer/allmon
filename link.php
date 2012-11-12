@@ -13,8 +13,10 @@ if (empty($node) AND empty($group)) {
 if (!empty($group)) {
     $type = 'group';
     $node = $group;
+    $interval = 1500;
 } else {
     $type = 'node';
+    $interval = 1000;
 }
 
 // Get Allstar database file
@@ -34,7 +36,7 @@ if (file_exists($db)) {
 
 if (array_key_exists($node, $astdb)) {
     $nodeRow = $astdb[$node];
-    $info = $nodeRow[4] . ' ' . $nodeRow[5] . ' ' . $nodeRow[6];
+    $info = $nodeRow[1] . ' ' . $nodeRow[1] . ' ' . $nodeRow[3];
 }
 
 // Build a list of nodes in the group
@@ -55,7 +57,8 @@ if (!empty($group)) {
 <script type="text/javascript">
     // prevent IE caching
     $.ajaxSetup ({  
-        cache: false  
+        cache: false,
+        timeout: 3000
     });    
 
     // when DOM is ready
@@ -75,7 +78,7 @@ if (!empty($group)) {
         
         // Go and repeat every 1 second.
         updateServer();
-        setInterval(updateServer, 1000);
+        setInterval(updateServer, <?php echo $interval; ?>);
 
     });
 </script>
