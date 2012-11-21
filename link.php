@@ -36,7 +36,7 @@ if (file_exists($db)) {
 
 if (array_key_exists($node, $astdb)) {
     $nodeRow = $astdb[$node];
-    $info = $nodeRow[1] . ' ' . $nodeRow[1] . ' ' . $nodeRow[3];
+    $info = $nodeRow[1] . ' ' . $nodeRow[2] . ' ' . $nodeRow[3];
 }
 
 // Build a list of nodes in the group
