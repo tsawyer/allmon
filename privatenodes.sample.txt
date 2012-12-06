@@ -1,0 +1,3 @@
+NODE|CALL|INFO|LOCATION
+1000|WD6AWP|145.14- 110.9|Santiago Peak, Southern CA
+

@@ -29,9 +29,10 @@ Install instructions
    should be a piece of cake.
  - Apache and PHP need to be installed on your server. The Apache password
    utility htpasswd must be available if you want to install an administrator.
- - The web server can be local to your node or on a stand alone server. If
+ - The web server can be local to your node or on a stand alone server. If you
+   are concerned about performance of your node use a stand alone server. If
    not local the Asterisk Manager port 5038 (or another of your choosing) must
-   be open.
+   be open towards your web server.
  - Put these files somewhere in your web servers document tree. That can be 
    the docroot or any subdir you like. 
  - Copy allmon.ini.txt to allmon.ini and then edit it for your node(s) 
@@ -45,6 +46,10 @@ Install instructions
  - Edit /etc/asterisk/manager.conf
  - Mark astdb.php executable and add to cron. Run just once a day please. ie
    01 03 * * * cd /var/www/html/allmon; ./astdb.php
+ - If you have private nodes rename the privatenodes.sample.txt to 
+   privatenodes.txt and edit it with you information. 
+   The line with NODE|CALL|INFO|LOCATION can be removed. It's there to show
+   the format only. 
 
 Allstar Database
  - If you don't have the Allstar "database" (really just a text file) the

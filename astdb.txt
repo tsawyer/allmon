@@ -183,7 +183,7 @@
 2293|WB5NFC|444.4 +|Mountain Home, AR
 2296|G4RKY|430.925 +7.6MHz|Axbridge, Somerset, UK
 2298|KB2EAR/R|444.9125+|Kendall Park, NJ
-2299|KB2EAR/R|440.7625 +|Mobile
+2299|KB2EAR/R|444.9875 +|Mobile
 2300|WN3A|TECH HUB|Valley Forge, PA
 23100|N1KDO|000.000-|Marietta, GA
 23101|N1KDO|000.000-|Marietta, GA
@@ -338,7 +338,7 @@
 2539|VE7OB|443.575|Victoria,BC
 2540|KA6OIJ|1282.650|Roseville CA
 2541|KF7DRV|146.580 Simplex|Tempe, AZ
-2544|W9RCG|443.125|Pewaukee/WI/USA
+2544|W9RCG|443.125|Bessemer/MI/USA
 2545|WA7G|441.675|Napa, CA
 2548|OE6XFE|432.725|Deutschlandsberg
 2549|OE6XRR|TEST|Graz
@@ -407,7 +407,7 @@
 27089|W2QW|442.250-|Green Brook, NJ
 27091|N7GV|145.270|Green Valley, AZ
 27092|KE7JVX|444.275+|Chandler/Arizona/USA
-27094|VE3KES|442.875Mhz|Edgar, Ontario Canada
+27094|VE3KES|<None>|Edgar, Ontario Canada
 27097|KD0EAV|*KD0EAV* Bridge|Kansas City, MO
 27098|RZ6AT|438.000-|Krasnodar City  Russia
 27112|K7YWF|147.58|logandale nevada
@@ -433,7 +433,7 @@
 27144|WE7GV|449.375|Green Valley, AZ
 27146|N5TZV|Remote|Silsbee, TX 
 27147|VE3NHP|TESTING|Stouffville, ON
-27153|W6TUG|146.520|quitman texas
+27153|W6TUG|446.000|quitman texas
 27154|VK3JED|VK Intl Ragchew|Adelaide, South Australia
 27156|VE5CAL|146.790-|Swift Current, SK
 27160|W5EVH|147.120+|Laredo, TX USA
@@ -518,7 +518,7 @@
 27286|VE3MBR|147.105+|Owen Sound ON
 27287|WA6YBN|<None>|Ridgecrest,CA
 27288|VA3ERA|ERA HUB NODE|KITCHENER ON
-27289|VE3NLS|147.150|Edgar, Ontario Canada
+27289|VE3NLS|442.875 +|Edgar, Ontario Canada
 27290|M0RIG|<None>|Marske by Sea, Redcar. UK
 27291|VE3WHR|443.925+|Woodstock ON
 27292|K2IWR|147.180 +|Cortland, New York
@@ -709,7 +709,7 @@
 27515|K6DND|927.0500|San Jose, CA
 27516|KD3SU|Hub|Hagerstown, MD
 27517|KD3SU|<None>|Hagerstown, MD
-27518|G6NQO|433.050|London, UK
+27518|G6NQO|430.075|London, UK
 27519|KE5MKM|<None>|Beeville, tx
 27520|KF5CHR|<None>|Springdale, Arkansas
 27521|KD0EAV|*MISSOURI* Bridge|Kansas City, MO
@@ -764,7 +764,7 @@
 27570|KB3ORS|HUB|Sheffield,PA
 27571|WB3IGM|53.47|Kane,Pa
 27572|WB3IGM|443.025|Kane,Pa
-27573|KB3ORS|000.000|Sheffield,Pa
+27573|WB3IGM|443.025 +|Kane, PA
 27574|KB3ORS|000.000|Sheffield,Pa
 27575|KC9MNL|<None>|chicago
 27576|N5HC|147.340 +|Rio Rancho NM
@@ -815,7 +815,7 @@
 27623|K5KRK|<None>|Lufkin, TX
 27624|N5YRB|<None>|Sequin, Texas
 27625|N5YRB|<None>|Sequin, Texas
-27626|N1DOT|Echolink|Turner, Me
+27626|N1DOT|eL (R)|Turner, Me
 27627|MB7IUR|<None>|Leicester..England..UK
 27628|W9DRR|internet|Iowa Allstar Hub
 27629|NG8Y|927.4375 -25khz|Pleasant Plain, Ohio
@@ -860,7 +860,7 @@
 27670|K4THD|<None>|Niceville, FL
 27671|N3SSL/R|443.550+|Williamsport, PA
 27672|W3WAN|441.700+|Philadelphia, PA
-27673|WB0YLE|Bucks Cnty HUB|Morrisville PA
+27673|WB0YLE|Lower Bucks HUB|Morrisville PA
 27674|N6TCT|440.175|Gerlach, NV
 27675|KB0WLF|147.045|Salem, Missouri
 27676|KA3WSX|<None>|Troutville Pa Clearfield
@@ -923,7 +923,7 @@
 27735|KC3DES|<None>|Cambria County PA
 27736|KC3DES|<None>|Cambria County PA
 27737|W8SAI|<None>|mason ohio
-27738|KD4LPU|Under Test|Hanover, OH  XIPAR on CentOS 6
+27738|KD4LPU|146.925 -|Hanover, OH
 27739|AL7RV|442.675+|Homer Alaska
 27740|W2BAP|Mobile Node|New Paris, PA
 27741|N8GCI|146.740-|lakeside, Montana
@@ -1126,7 +1126,7 @@
 27942|LA4PMA|<None>|Bergen
 27943|KI6IGR|<None>|Canyon Lake,Ca
 27944|KF7LVG|446.675-|Las Vegas, Nv
-27945|KN2R|444.725+|Cape Coral, FL
+27945|KN2R|444.725+|Cape Coral, SW FL
 27946|N6GKJ|Galt Remote No Tx|Galt, California
 27947|K4KWQ|444.150|Somewhere in Florida
 27948|CA3VRT|146.02|Chile
@@ -1166,8 +1166,8 @@
 27982|NH7M|<None>|Carson City, Nevada
 27983|KF6FM|<None>|Riverside, Ca
 27984|KF6FM|<None>|Riverside, Ca
-27985|KF6FM|<None>|Riverside, Ca
-27986|KF6FM|<None>|Riverside, Ca
+27985|KF6FM|<None>|Palm Springs
+27986|KF6FM|<None>|Riverside, CA
 27987|K4KWQ|<None>|Deland, Fl
 27988|K4KWQ|<None>|Deland, Fl
 27989|K4KWQ|<None>|Deland Fl
@@ -1234,7 +1234,7 @@
 28061|KF5HDC|<None>|Texas
 28062|N1DOT|Hub Node|Turner, Me
 28063|KC9SGV|7.263|Chicago, IL
-28064|N1DOT|Link To XRF901|Turner, Me
+28064|N1DOT|Link To Dstar|Turner, Me
 28065|TRANSCODER|*EKOSTAR* Transcoder|Fort Myers, FL
 28066|K4NUK|443.050+|Fort Myers, FL
 28067|W6CNL|443.000+|Port Ludlow, WA
@@ -1483,7 +1483,7 @@
 28315|G3SNA|<None>|Greenfield, Oldham UK
 28316|N4DJJ|<None>|Naples, Florida
 28317|N4DJJ|<None>|Naples, Florida
-28318|KD6LKM|439.775|Modesto Ca.
+28318|KD6LKM|223.460|Modesto Ca.
 28319|G3SNA|<None>|Greenfield, Oldham UK
 28320|KB2FAF|443.150|Syracuse, New York
 28321|YD7HFY|<None>|BAJARMASIN
@@ -1584,7 +1584,7 @@
 28416|N6GKJ|<None>|Stockton, Califormia
 28420|K2DES|145.750 MHZ|Stony Point, NY.
 28421|N2LYJ|IRLP NODE 4844 |Buffalo, New York
-28422|4Z5UG|145.525|Efrat/Israel
+28422|4Z5UG|145.3125|Efrat/Israel
 28423|K6JR|449.240|Palm Springs/California
 28424|NH6WT|HUB|Keaau,Hawaii
 28425|N3PZT|147.420 S PL123.0|Gaithersburg, MD
@@ -1667,16 +1667,16 @@
 28504|N9GMR|<None>|Port Orange Florida
 28505|VE3RII|444.175+|Manitowaning ON
 28506|k4pdw|147.420|MOORESBORO NC
-28507|VE3WOO|443.900|Toronto, Ontario
+28507|VE3WOO|443.900|Toronto, Ontario, Canada
 28508|AH6OD|HI/CA/VA HUB|Bristow, Virginia 
 28509|VE3UHM|442.525+|Hamilton ON
 28510|VA3RQ|<None>|Hamilton ON
 28511|VA3RQ|<None>|HAMILTON ON
 28512|NV7L|441.400|Reno, NV
 28513|KE7SWA|433.000|Murray, Utah
-28514|VE3NUS|444.500 MHZ|Toronto, ON
+28514|VE3NUS|444.500 MHZ|Markham, Ontario, Canada
 28515|KE0TY|146.820-|Grand Junction, Colorado
-28516|VE3WOO|443.900|Toronto, ON
+28516|VE3WOO|443.900|Toronto, Ontario, Canada
 28517|K4PDW|<None>|MOORESBORO NC
 28518|K4PDW|<None>|MOORESBORO NC
 28519|K4PDW|147.420|MOORESBORO NC
@@ -1760,7 +1760,7 @@
 28601|KL3MG|<None>|Wasilla,Alaska,USA
 28602|KB6UOO|<None>|TBD
 28603|KB6UOO|<None>|TBD
-28604|N2LYJ|927.5000 (Simplex)|Buffalo, New York
+28604|N2LYJ|927.9250|Buffalo, New York
 28605|DB0EL|439.275 -7.6|Munich
 28606|DB0ZM|145.750 -0.6|Munich
 28607|W6WAW|<None>|Whittier, CA
@@ -1852,15 +1852,15 @@
 28697|K6IXQ|446.860-|Costa Mesa
 28698|VE3CKL|<None>|Cobourg, ON
 28699|KB2CSN|<None>|Tampa, FL
-28701|VE3RTR|Remote Base|Cobourg, ON
-28702|VE3RTR|145.150-|Cobourg, ON
-28703|VE3RTR|<None>|Cobourg, ON
-28704|VE3RTR|447.075-|Cobourg, ON
-28705|VE3RTR|<None>|Cobourg, ON
+28701|VE3RTR|145.150-|Rice Lake - Cobourg, ON
+28702|VE3RTR|447.075-|Rice Lake - Cobourg, ON
+28703|VE3RTR|Remote Base|Cobourg, ON
+28704|VE3MXR|444.975+|Cobourg, ON
+28705|VE3CKL|444.650+|Lindsay, ON
 28706|VE3RTR|<None>|Cobourg, ON
 28707|VE3RTR|<None>|Cobourg, ON
 28708|VE3RTR|<None>|Cobourg, ON
-28709|VE3MXR|444.975+|Lindsay, ON
+28709|VE3RTR|<None>|Cobourg, ON
 28710|KC5FOG|52.525 MHz|Galveston, TX
 28711|KC5FOG|29.600 MHz|Bayou Vista, Texas
 28712|KC5FOG|<None>|Houston, TX
@@ -1903,7 +1903,7 @@
 28749|KC5DAQ|<None>|Hockley, Tx
 28750|KC5DAQ|<None>|Hockley, Tx
 28751|k5TRY|145.7300 (pLRI)|Springdale, AR
-28752|K5TRY|445.12500 (pLRI)|Springdale, AR
+28752|K5TRY|445.1250 (pLRI)|Springdale, AR
 28753|K5NWZ|<None>|Pearland Texas
 28754|KA2PBT|<None>|White Twp, NJ
 28755|N4LRA|<None>|Dumfries, Vrginia
@@ -1931,16 +1931,16 @@
 28779|WB6YOK|<None>|Layton, UT
 28780|VE3CKL|<None>|Cobourg, ON
 28781|N0KM|446.550|Center, CO
-28782|N1DOT|Hub Node|Turner, Me
+28782|N1DOT|eL (L)|Turner, Me
 28783|N1DOT|Hub Node|Turner, Me
-28784|N6HU|Hub/EL|Soledad,Ca
-28785|K1IF|E|Swansea, Illinois
+28784|N6HU|Hub Node|Soledad,Ca
+28785|K1IF|Echolink|Swansea, Illinois
 28786|WH6PS|Oahu North Shore HUB|Hau'ula, Hawaii
 28787|KE6PCV|<None>|Corona, CA
 28788|K6PNG|<None>|Victorville California
 28789|K8SN|442.075+|Morley, MI
 28790|KB8ZGL|<None>|Morley, MI
-28791|K1IF|D |Swansea, Illinois
+28791|K1IF|D-Star|Swansea, Illinois
 28792|KB4FMO|146.850 -|Tecumseh Station Alabama
 28793|K5DLQ|<None>|Magnolia, TX
 28794|GD6ICR|70.350|Peel, Isle of Man
@@ -1999,7 +1999,7 @@
 28850|K2EAG|<None>|Williamsville, NY
 28851|K2EAG|<None>|Williamsville, NY
 28852|K2EAG|<None>|Williamsville, NY
-28853|N6HU|441.600|Soledad,Ca
+28853|N6HU|441.600|Soledad,Ca.
 28854|W7NLV|<None>|North Las Vegas, NV
 28855|KD6DIQ|<None>|yucca valley ca
 28856|KD5EUO|144.95|Austin, TX
@@ -2043,7 +2043,7 @@
 28912|N8OHU|<None>|Andover Ohio
 28913|N8OHU|<None>|Andover Ohio
 28914|KK4GUB|<None>|Southwest Ranches Florida
-28915|K1IF|I |Swansea, Illinois
+28915|K1IF|I|Swansea, Illinois
 28917|KA0JQO|147.375+|Harrisburg, PA
 28919|KA0JQO|147.375+|Harrisburg, PA
 28921|KC2VNM|<None>|Elizabeth NJ
@@ -2077,7 +2077,7 @@
 28949|KC2VNM|<None>|Elizabeth NJ
 28950|K6PET|Testing|Mission Viejo, CA
 28951|N4BWP|442.375+|Tuscaloosa, AL
-28952|W6RNR|<None>|DUBLIN, CA., USA
+28952|W6RNR|440.750+|DUBLIN, CA., USA
 28953|W6RNR|<None>|MILPITAS, CA., USA
 28954|W1LLE|<None>|SAN BRUNO CA.
 28955|W1LLE|<None>|VACAVILLE, CA.
@@ -2101,7 +2101,7 @@
 28973|VE2ABC|442.200 -|Ste-Marguerite /Qc./Canada
 28974|VE2ABC|145.470 -|St-Jean Chrysostome QC.Canada
 28975|KF7TBT|<None>|north las vegas , nevada 89030
-28976|N6HU|CA,HI,VA. HUB|Monterey,Ca
+28976|N6HU|HUB|Monterey,Ca
 28977|KA4EPS|146.520|Murphy, NC
 28978|KA4EPS|<None>|Key West, FL
 28979|KJ6PPG|<None>|San Jose, CA
@@ -2165,7 +2165,7 @@
 29058|KB6BZZ|<None>|Apple Valley, CA
 29059|KB6BZZ|<None>|Apple Valley, CA
 29060|KB6BZZ|<None>|Apple Valley, CA
-29061|W0ANM|446.050|Saint Michael, MN
+29061|W0ANM|446.1750|Saint Michael, MN
 29062|W0ANM|<None>|Saint Michael, MN
 29063|K6JRM|<None>|Ehrenberg, AZ
 29064|W3NLE|<None>|Perryville, MD
@@ -2203,13 +2203,13 @@
 29096|K8SN|927.4625|Kent County MI
 29097|AC6PT|<None>|signal hill
 29098|AC6PT|<None>|signal hill ca 90755
-29099|K0DMF|145.330-|North Branch, MN
+29099|K0ECM|145.330-|North Branch, MN
 29101|K0DMF|Remote|North Branch, MN
 29102|KB5GAS|147.380 +|Albuquerque, NM
-29103|KC2RQR|<None>|Staten Island, NY
-29104|KQ6RC|<None>|HAYWARD,CA
+29103|KC2RQR|447.300 Mhz -|Staten Island, NY
+29104|KQ6RC|<None>|HAYWARD CA
 29105|W7WO|<None>|Lacey, Wa
-29106|K1IF|<None>|Swansea, Illinois
+29106|K1IF|HUB Node|Swansea, Illinois
 29107|W8FSM|<None>|fenton/mi
 29108|W8FSM|<None>|fenton/mi
 29109|VA3UV|<None>|Mississauga, ON
@@ -2217,28 +2217,63 @@
 29112|KB9BNA|<None>|Milwaukee, WI
 29113|KJ6VOX|<None>|Roseville CA
 29114|EA2BKH|<None>|Zaragoza/España
-29115|kc7mrq|146.700-|Ronan, MT
+29115|KC7MRQ|146.700-|Ronan, MT
 29116|M3JZT|<None>|South Yorkshire UK
-29117|N6HU|<None>|Soledad,Ca
-29118|N6HU|HUB|Soledad,Ca
+29117|N6HU|<None>|Soledad,Ca.
+29118|N6HU|CA,HI,VA. HUB|Soledad,Ca
 29119|KJ4QAL|<None>|St.Petersburg, FL  USA
-29120|W6WCN|<None>|DUBLIN CA.
-29121|W6WCN|<None>|DUBLIN CA.
-29122|W6WCN|<None>|DUBLIN CA.
-29124|W6WCN|<None>|DUBLIN CA.
-29125|W6WCN|<None>|DUBLIN CA.
-29126|W6WCN|<None>|DUBLIN CA.
-29127|W6WCN|<None>|DUBLIN CA.
-29128|W6WCN|<None>|DUBLIN CA.
-29129|W6WCN|<None>|DUBLIN CA.
-29130|W6WCN|<None>|DUBLIN CA.
+29120|W6WCN|224.400-|DUBLIN CA.
+29121|W6WCN|<None>|HAYWARD CA
+29122|W6WCN|<None>|LIVER MOORE CA.
+29124|W6WCN|<None>|SAN DIEGO CA
+29125|W6WCN|<None>|SAN DIEGO CA
+29126|W6WCN|<None>|SAN DIEGO CA
+29127|W6WCN|<None>|SAN DIEGO CA
+29128|W6WCN|<None>|SAN DIEGO CA
+29129|W6WCN|<None>|SAN DIEGO CA
+29130|W6WCN|<None>|HAYWARD CA.
 29131|KB0NSO|145.255|independence mo
 29132|N2LYJ|<None>|Buffalo, New York
-29133|VA3YC|146.850|Edgar, Ontario, Canada
+29133|VE3LSR|146.850|Edgar, Ontario
 29134|K0HPY|146.730-|Forest Lake, MN
+29135|K7AZ|<None>|Lompoc CA
+29136|K5VCR|<None>|san antonio, tx
+29137|K5TRY|tRy hub|Springdale, AR
+29138|K5TRY|<None>|Springdale, AR
+29139|K5TRY|<None>|Springdale, AR
+29140|OE1XAR-T|433,100|Vienna, Austria
+29141|KB3ICC|446.100|Pottsville, PA
+29142|KD5KNZ|<None>|Baton Rouge, LA
+29143|KD4LPU|<None>|hanover, OH
+29144|N7YUR|441.550|Cave Junction, Oregon 97523
+29145|N7YUR|145.630|Cave Junction, Oregon 97523
+29146|DB0LY|439.325 -7.6|Lychen/Brandenburg
+29147|N6AJB|447.020- San G|Banning, CA
+29148|AF6HP|449.600- Santiago|Banning, CA
+29149|KE6PCV|445.260- Daniel|Banning, CA
+29150|WA7HXO|<None>|Las Vegas, NV
+29151|WA7HXO|<None>|Las Vegas, NV
+29152|WA7HXO|<None>|Las Vegas, NV
+29153|WA7HXO|<None>|Las Vegas, NV
+29154|VA3LSR|449.700 -|Edgar, Ontario
+29155|KD4NFS|<None>|NORTTH FORT MYERS FLORIDA
+29156|KD4NFS|<None>|NORTTH FORT MYERS FLORIDA
+29157|KB1YYV|<None>|South Berwick, ME
+29159|KN2R|223.660|Cape Coral, SW FL
+29160|K8AJG|<None>|Naples, FL
+29161|K8AJG|<None>|Naples, FL
+29162|KF5JRE|<None>|Huntsville, Texas
+29163|KF5JRE|<None>|Huntsville, Texas
+29164|N8WHG|<None>|atlanta, ga
+29165|N8WHG|<None>|atlanta, ga
+29166|W4RCC|<None>|Port Saint Lucie Florida
 90101|WB6NIL|<None>|Test Bench
 90102|WB0YLE|146.55 RANGER NODE|Morrisville PA
 90103|W2QW|146.5500|Green Brook, NJ
 90104|KE6UPI|<None>|Ranger Net
 90105|KK4ECD|<None>|Fort Myers, FL
 90106|W7FED|146.550 RANGER NODE|Burien-SEATAC, WA
+805|W5JON|442.95+ PL 100.0|Magnolia, TX
+806|N5LUY|442.85+ PL 123.0|Channelview, TX
+NODE|CALL|INFO|LOCATION
+1000|WD6AWP|145.14- 110.9|Santiago Peak, Southern CA

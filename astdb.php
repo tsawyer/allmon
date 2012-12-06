@@ -10,6 +10,12 @@ while (!feof($fh)) {
 }
 fclose($fh);
 
+// Load private nodes if any
+$privatefile = "privatenodes.txt";
+if (file_exists($privatefile)) {
+    $contents .= file_get_contents($privatefile);
+}
+
 // Save the data
 $db = "astdb.txt";
 if (! $fh = fopen($db, 'w')) {
