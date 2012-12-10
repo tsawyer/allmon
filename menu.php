@@ -46,8 +46,8 @@ if (count($groups) > 0) {
     foreach ($groups as $group) {
         $items[$i]['node'] = $group;
         $items[$i]['url'] = "link.php?group=$group";
+        $i++;
     }
-    $i++;
 }
 
 // Add about.php tp menu

@@ -47,8 +47,8 @@ if (!empty($group)) {
     $nodes = split(",", $gconfig[$group]['nodes']);
     #print "<pre>"; print_r($nodes); print "</pre>";
     if (count($nodes) > 0) {
-        print "<table class=\"gridtable\">\n";
         foreach ($nodes as $node) {
+            print "<table class=\"gridtable\">\n";
             if (isset($_COOKIE['allmon_loggedin']) && $_COOKIE['allmon_loggedin'] == 'yes') {
                 $colspan = 8;
             } else {
