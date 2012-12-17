@@ -174,7 +174,7 @@ function printNode ($localNode, $connectedNodes) {
             $h = floor($t / 3600);
             $m = floor(($t / 60) % 60);
             $s = $t % 60;
-            $last_keyed = sprintf("%02d:%02d:%02d", $h, $m, $s);
+            $last_keyed = sprintf("%03d:%02d:%02d", $h, $m, $s);
         } else {
             $last_keyed = "Never";
         }

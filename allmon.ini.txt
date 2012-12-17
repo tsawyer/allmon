@@ -10,3 +10,9 @@ user=admin
 passwd=password
 voter=yes
 menu=no
+[About]
+url=about.php
+[Google]
+url=http://google.com
+[Test 123]
+url=test.html

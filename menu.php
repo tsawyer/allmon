@@ -50,11 +50,14 @@ if (count($groups) > 0) {
     }
 }
 
-// Add about.php tp menu
-$items[$i]['node'] = "About";
-$items[$i]['url'] = "about.php";
-
-
+// Add custom items to menu
+foreach($config as $n => $data) {
+    if (!empty($data['url'])) {
+        $items[$i]['node']=$n;
+        $items[$i]['url'] = $data['url'];
+        $i++;
+    }
+}
 ?>
 <ul>
 <?php 
