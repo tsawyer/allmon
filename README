@@ -1,5 +1,5 @@
 Allmon README
-v0.3 November 1, 2012
+Updated December 17, 2012
 
 Allmon is a web site for managing one or more app_rpt (aka Allstar) nodes. 
 Each managed local node shows a list of connected nodes. The list is 
@@ -62,3 +62,8 @@ Allstar Database
 Known Bugs
  - If you have only a group and no individual nodes displayed (menu=yes) 
    index.php will not redirect to the group.  
+   
+Updates
+  - 2012/12/06 Private nodes may be appended to astdb.txt 
+  - 2012/12/10 Fixed groups where more than one group is used
+  - 2012/12/17 Menu items may be added to allmon.ini
