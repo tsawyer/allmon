@@ -203,11 +203,10 @@ function printNode ($localNode, $connectedNodes) {
         // print table rows
         print "$tr\n";
         if (isset($_COOKIE['allmon_loggedin']) && $_COOKIE['allmon_loggedin'] == 'yes') {
-            if ($node['link'] == 'ESTABLISHED') {
+            #print "<pre>"; print_r($node); print "</pre>";
+            if ($node['link'] == 'ESTABLISHED' || $node['link'] == 'CONNECTING') {
                 $hrefLink=$localNode . "#" . $node['node'];
-                #print "<td align='center'><a href='#' onClick=\"disconnect('$localNode, ". $node['node'] . "')\">X</a></td>\n";
                 print "<td align='center'><a href='$hrefLink' class='disconnect'>X</a></td>\n";
-                #print "<td align='center'>" . $node['node'] . "' class='disconnect'>X</a></td>\n";
             } else {
                 print "<td>&nbsp;</td>\n";
             }
