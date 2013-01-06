@@ -10,10 +10,10 @@
     top:20px;
     left:10px;
     margin: 0px 0px;
-	font-size: 2.5em;
-	line-height: normal;
-	letter-spacing: normal;
-	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    font-size: 2.5em;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 #headerTag {
@@ -21,11 +21,11 @@
     top:70px;
     left:10px;
     margin: 0px 00px;
-	font-weight: normal;
-	font-size: 1.0em;
-	line-height: normal;
-	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-	letter-spacing: normal;
+    font-weight: normal;
+    font-size: 1.0em;
+    line-height: normal;
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    letter-spacing: normal;
 }
 
 #headerImg {
@@ -35,8 +35,10 @@
 }
 
 #menu {
-    position:static;
-    height: 25px;
+/*  position:static;
+    height: 25px; */
+    float: left;
+    width: 100%;
     background-color: #446600;
     color: #ffff99;
     font-size:12px;
@@ -44,10 +46,9 @@
 }
 
 #menu ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	z-index: 5;
+    list-style: none;
+    margin: 0;
+    z-index: 5;
 }
 
 #menu li {
@@ -58,7 +59,7 @@
 
 #menu a {
 	display: block;
-	padding: 5px 15px 10px;
+	padding: 5px 12px 5px;
 	text-decoration: none;
     color: #ffff99;
 }
