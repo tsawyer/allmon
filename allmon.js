@@ -47,11 +47,12 @@ $(document).ready(function() {
     });
 
     // Ajax connect a link
-    $('#connect').click(function() {
+    $('#connect, #monitor, #permanent').click(function() {
+        var button = this.id;    // which button was pushed
         var node = $('#node').val(); 
         var perm = $('input:checkbox:checked').val();
         var localnode = $('#localnode').val();
-        $.ajax( { url:'connect.php', data: { 'node' : node, 'perm' : perm, 'localnode' : localnode }, type:'post', success: function(result) {
+        $.ajax( { url:'connect.php', data: { 'node' : node, 'perm' : perm, 'button' : button, 'localnode' : localnode }, type:'post', success: function(result) {
                 $('#test_area').html(result);
                 $('#test_area').stop().css('opacity', 1).fadeIn(50).delay(1000).fadeOut(2000);
             }

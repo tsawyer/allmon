@@ -4,6 +4,7 @@ include('allmon.inc.php');
 // Filter and validate user input
 $node = @trim(strip_tags($_POST['node']));
 $perm = @trim(strip_tags($_POST['perm']));
+$button = @trim(strip_tags($_POST['button']));
 $localnode = @trim(strip_tags($_POST['localnode']));
 
 if (! preg_match("/^\d+$/",$node)) {
@@ -24,10 +25,24 @@ $config = parse_ini_file('allmon.ini', true);
 $fp = connect($config[$localnode]['host']);
 login($fp, $config[$localnode]['user'], $config[$localnode]['passwd']);
 
-// Permanent or normal connection?
-$ilink = ($perm == 'on') ? '13' : '3';
-
-print "<b>Connecting $localnode to $node</b>";
+// Which ilink command?
+if ($button == 'connect') {
+    if ($perm == 'on') {
+        $ilink = 13;
+        print "<b>Permanent Connecting $node to $localnode</b>";
+    } else {
+        $ilink = 3;
+        print "<b>Connecting $node to $localnode</b>";
+    }
+} elseif ($button == 'monitor') {
+    if ($perm == 'on') {
+        $ilink = 12;
+        print "<b>Permanent Monitoring $node from $localnode</b>";
+    } else {
+        $ilink = 2;
+        print "<b>Monitoring $node from $localnode</b>";
+    }
+}
 
 // Do it
 if ((@fwrite($fp,"ACTION: COMMAND\r\nCOMMAND: rpt cmd $localnode ilink $ilink $node\r\n\r\n")) > 0 ) {

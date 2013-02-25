@@ -112,6 +112,7 @@ if (count($nodes) > 0) {
     <input type="text" id="node">
     Permanent <input type="checkbox">
     <input type="button" value="Connect" id="connect">
+    <input type="button" value="Monitor" id="monitor">
 </div>
 
 <div id="link_list">Loading...</div>
