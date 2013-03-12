@@ -13,10 +13,8 @@ if (empty($node) AND empty($group)) {
 if (!empty($group)) {
     $type = 'group';
     $node = $group;
-    $interval = 1500;
 } else {
     $type = 'node';
-    $interval = 1000;
 }
 
 // Get Allstar database file
@@ -52,6 +50,13 @@ if (!empty($group)) {
     $nodes = split(",", $gconfig[$group]['nodes']);
 }
 #print_r($nodes); print "$type $node";
+
+// Set Refresh interval
+$nodesInGroup=count($nodes);
+$interval = 1000;
+if ($nodesInGroup > 0) {
+    $interval = 1000 * $nodesInGroup;
+}
 
 ?>
 <script type="text/javascript">
