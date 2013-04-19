@@ -1,0 +1,5 @@
+[HB Voters]
+node=1000
+host=yourhost.com:5038
+user=admin
+passwd=password

@@ -2,4 +2,5 @@
 .htpasswd
 allmon.ini
 groups.ini
+voter.ini
 privatenodes.txt
