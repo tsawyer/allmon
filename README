@@ -39,7 +39,9 @@ Install instructions
    information. The user ID and passwords you enter here are the one you will
    use in manager.conf on your node server(s).
  - Optionally copy groups.ini.txt to groups.ini and edit. Any nodes listed in
-   groups must exist in allmon.ini.
+   groups must exist in allmon.ini (to know host name, password, etc) but do
+   not have to be on the menu (menu=no).
+ - Optionally copy voter.ini.txt to voter.ini and edit with your voter info.
  - Create your .htpasswd file for the admin user(s). In your web server 
    directory, on the command line do: htpasswd -c .htpasswd username
  - Make sure you have the latest Allstar source from svn
@@ -67,3 +69,4 @@ Updates
   - 2012/12/06 Private nodes may be appended to astdb.txt 
   - 2012/12/10 Fixed groups where more than one group is used
   - 2012/12/17 Menu items may be added to allmon.ini
+  - 2013/04/19 Changes to Voter Menu, see github for details.
