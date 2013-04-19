@@ -42,8 +42,8 @@
 2058|W4RFJ|Cross Band Repeater|Ridley Park/Pa
 2059|W4WWM|443.025+|Madison, AL
 2060|KE6UPI|Hub|Murrieta, CA
-2061|KE6UPI|445.080-|Murrieta, CA
-2062|KE6UPI|445.080-|Murrieta, CA
+2061|KE6UPI|445.080-|Running Springs, CA
+2062|KE6UPI|445.080-|Running Springs, CA
 2063|KE6UPI|445.080-|Murrieta, CA
 2064|KE6UPI|2m/440 Remote|Murrieta, CA
 2065|KE6PCV|CALNET SYSTEM|Corona, CA
@@ -64,7 +64,7 @@
 2080|KE6UPI|29.62-|Murrieta, CA
 2081|KE6UPI|927.700-|Murrieta, CA
 2083|KE6UPI|145.755|Murrieta, CA
-2084|KE6UPI|<None>|Palm Desert, CA
+2084|KE6UPI|<None>|Murrieta, CA
 2088|KD6RSQ|445.760 -|Ramona, CA
 2089|KD6RSQ|145.300 -|Ramona, CA
 2090|W9DRR|442.575+|Waterloo,IA
@@ -96,7 +96,7 @@
 2126|WJ8G|Warren WebTX|Warren Pennsylvania
 2127|K3WS|BackUp HUB W3WAN|WANRS.com
 2128|K3WS|<None>|WANRS.com
-2129|K3WS|FLEX 5000 Remote|WANRS.com
+2129|K3WS|KB3BLF HUB|Laurel MD
 2130|N9YTY|147.420s|Machesney Park, IL
 2131|N9YTY|147.420s|Loves Park, IL
 2132|JI1BQW|438.990|Zama, Kanagawa
@@ -105,7 +105,7 @@
 2135|W3WAN|WAN-RS Hub|Warren Pennsylvania
 2136|KE6YMW|444.400+|Coarsegold, Ca
 2137|KJ6MID|445.900-|Santa Barbara, CA
-2138|WJ8G|XIPAR 64 bit X|Warren Pennsylvania
+2138|WJ8G|442.775+ 64 bit|Ludlow PA
 2139|KJ6MID|2 meter remote|Santa Barbara, CA
 2140|VE7MQ|443.800+|Vancouver, BC
 2142|KJ6JD|<None>|Sacramento California
@@ -150,12 +150,12 @@
 2211|K0KN|146.400 Simplex|Olathe, KS
 2212|K0KN|446.900 Simplex|Olathe, KS
 2213|K0KN|K0KN-L Echolink Hub|Olathe, KS
-2214|K0KN|Test Node|Olathe, KS
-2215|K0KN|Test Node|Olathe, KS
+2214|K0KN|Test Node - No RF|Olathe, KS
+2215|K0KN|Kansas Tech Hub|Olathe, KS
 2216|K0KN/R|Merriam, KS Hub|Merriam, KS
 2217|K0KN/R|927.7125 - |Merriam, KS
 2218|K0KN/R|K0KN-R Echolink Hub|Merriam, KS
-2219|K0KN/R|Test Node|Merriam, KS
+2219|K0KN/R|Test Node - No RF|Merriam, KS
 2220|WB6EGR|Freq Agile|Las Vegas Nevada
 2221|WB6EGR|448.475|Las Vegas Nevada
 2222|WB6EGR|443.475+|Kailua Kona Hawaii
@@ -189,7 +189,7 @@
 2300|WN3A|TECH HUB|Valley Forge, PA
 2301|W3GFD|442.075 +|Youngsville PA
 2302|W3GFD|147.015 +|Youngsville PA
-2303|WJ8G|<None>|Warren Pennsylvania
+2303|W3YXE|444.800+|Corry PA
 2304|WJ8G|<None>|Warren Pennsylvania
 2305|WJ8G|<None>|Warren Pennsylvania
 2306|WJ8G|<None>|Warren Pennsylvania
@@ -228,7 +228,7 @@
 2337|N3FE|Gateway|Mansfield, PA
 2338|N3FE|146.910 (-)|Arnot, PA
 2339|N3FE|<None>|Mansfield, PA
-2340|N3FE|444.300 (+)|Whitnyville, PA
+2340|N3FE|444.600 (+)|Whitnyville, PA
 2341|K4KWQ|Hub Deland, Fl|Deland
 2344|VE3YYZ|443.050+|Toronto, ON
 2345|EB5ADX|144.275|ALCANTARILLA/MURCIA
@@ -262,7 +262,7 @@
 2397|DB0FOX|439.3625 -7.6|Augsburg
 2398|DB0VOX|439.250 -7.6|Nuernberg
 2400|WB9STH|RTCM Test|Las Vegas, NV
-2401|WB9STH|Mid West Hub|North Las Vegas, Nevada
+2401|WB9STH|447.250|North Las Vegas, Nevada
 2402|WB9STH|Southern HUB|North Las Vegas, Nevada
 2403|WB9STH|Eastern Hub|North Las Vegas, Nevada
 2404|WB9STH|Hawaii HUB|North Las Vegas, Nevada
@@ -332,12 +332,12 @@
 2514|GB3ZB|430.825|Dundry, Bristol
 2515|KJ7SU|<None>|Portland, OR
 2516|KJ7SU|Remote Base|Portland, OR
-2519|KI6LNX|146.460 Simplex|Otay Mesa
-2520|WD6AWP|Test Hub|Southern California
+2519|KI6LNX|146.460 Simplex|Temp Location
+2520|WD6AWP|Special Events|Southern California
 2521|WD6AWP|test|Huntington Beach, CA
 2522|WD6AWP|<None>|Huntington Beach, CA
 2523|WD6AWP|<None>|Huntington Beach, CA
-2524|W6SEL|444.1250+|Sierra Vista, AZ
+2524|W6SEL-R|444.1250+|Sierra Vista, ArizonA
 2525|WD6AWP|<None>|Huntington Beach, CA
 2526|WD6AWP|<None>|Huntington Beach, CA
 2527|WB9STH|447.425|Las Vegas, NV
@@ -346,8 +346,8 @@
 2530|WD6AWP|AWP Hub|Southern California
 2531|WD6AWP|448.040- Simulcast|Southern California
 2532|WD6AWP|145.140-|Southern California
-2533|WD6AWP|Echolink GW|Huntington Beach, CA
-2534|WD6AWP|Test|Huntington Beach, CA
+2533|WD6AWP|Echolink UHF GW|Huntington Beach, CA
+2534|WD6AWP|Echolink VHF GW|Southern California
 2535|WD6AWP|Remote Base|Santiago Peak, CA
 2536|GB3NU|430.8875 +7.6|Sheringham Norfolk UK
 2537|W8QV|444.450+|Parma Ohio
@@ -361,7 +361,7 @@
 2549|OE6XRR|TEST|Graz
 2551|JG1HQY|430.960|Tochigi,jp
 2552|KG4RCK|443.725+|Montgomery, Alabama
-2553|WJ8G|442.775 + RBTIP|Warren Pennsylvania
+2553|WJ8G|REPEATER-BUILDER|Warren Pennsylvania
 2555|KB2EAR|2m Remote|Kendall Park, NJ
 2556|KB2EAR|223.780 -|Kendall Park, NJ
 2557|KC2WBJ/R|440.7625|Kingston, NJ
@@ -400,7 +400,7 @@
 27025|WB8ODF|<None>|Jonesville/Michigan
 27035|N6UG/R|442.000+|Rocklin, Ca
 27039|W6REB|439.775|Redding, Ca.
-27040|WL7CWE|<None>|Anchorage  Alaska
+27040|WL7CWE|146.82 -|Anchorage  Alaska
 27044|KE7JVX|927.6500-|Gila River/Arizona/USA
 27050|W6REB|439.775|Santa Cruz, Ca.
 27051|W7FED|147.980-|TBD
@@ -434,7 +434,7 @@
 27117|W7FED|2M/440 Remote|TBD
 27121|WB9STH|146.82-|Las Vegas, NV
 27122|W6EK/R|223.86-|Auburn, CA
-27123|N5TZV|441.625 +|Mobile Texas
+27123|N5TZV|146.820 -|Beaumont, TX
 27124|N5TZV|441.625 +|Silsbee, TX 
 27125|W4MEV|224.420-|Richmond, VA
 27126|M3PWR|TESTING|newcastle-under-lyme
@@ -457,7 +457,7 @@
 27160|W5EVH|147.120+|Laredo, TX USA
 27161|W5EVH|146.940-|444.000 pl100    Laredo,TX
 27162|W5EVH|146.880-|Laredo, TX  USA
-27163|W5EVH|145.150+|Laredo, TX  USA
+27163|W5EVH|145.150+|Laredo, TX
 27164|W0OTM|145.170-|Ottumwa, IA
 27165|VE3SRG|147.060-|Greater Sudbury, Ontario
 27166|N6GYY|440.000 S|San Pedro, California
@@ -566,7 +566,7 @@
 27327|AF8D|147.560 simplex|Kingwood, Texas
 27328|VK7AX|146.775 - VK7RTV|Ulverstone, Tasmania
 27329|KC2WDZ|146.400|Sparkill, New York
-27330|N6WI|<None>|Berryville, AR
+27330|N6WI|<None>|berryville arkansas
 27331|KK6RQ|927.9125|Santa Clara
 27332|K2KGG|<None>|south plainfield nj
 27333|MB7IIP|Test Node No RF|Ipswich UK
@@ -595,7 +595,7 @@
 27356|KC3DES|444.375+|New Germany, PA
 27357|N3XCC|<None>|Johnstown, PA
 27358|N3XCC|<None>|Johnstown, PA
-27359|N3XCC|<None>|Johnstown, PA
+27359|KE3UC|443.575+|Central City PA
 27360|WB9UUS|447.700|Bloomington, IL
 27361|WB2MOD|146.58 Simplex|Wellsville NY
 27362|N3FE|Stateline Group Hub|Bloss Mtn
@@ -633,7 +633,7 @@
 27396|KE6VRL|<None>|Covina, CA
 27397|VE2BFW|<None>|Gatineau, Quebec
 27398|N0TIA|<None>|East Bethel, Minnesota
-27399|2E0AIV|<None>|East Runton
+27399|2E0AIV|430.100|East Runton
 27400|KB8ZGL|<None>|Michigan
 27401|KB8ZGL|<None>|Michigan
 27402|KB8ZGL|<None>|Michigan
@@ -695,7 +695,7 @@
 27473|M1ELR|431.150MHz|Merseyside, UK
 27474|KD6ABR|<None>|WHITTIER
 27475|GD0NFN|29.530|Lonan
-27476|N0KQG|927.5000|Lake St Louis, MO 63367
+27476|N0KQG|927.5000|Kansas City, MO 64157
 27477|wl7cwe|<None>|Port Angeles, WA
 27478|OE1XFW|438,650-|Vienna, Austria
 27479|KJ3LR|145.110 -|Tampa Bay, Florida
@@ -844,8 +844,8 @@
 27634|N6AMG|Multi|Redwood City, CA
 27635|WA3UQD|145.290-|Gibsonia, Pa
 27636|KF5IRG|146.420|McAlester, Oklahoma
-27637|KI4SWB/R|444.925+|Melbourne, FL
-27638|KI4SWB|Remote Base|Melbourne Beach, FL
+27637|KI4SWB/R|<None>|Melbourne, FL
+27638|KI4SWB|147.420|Melbourne Beach, FL
 27639|KF0PB|224.560  (-)|Harrison AR
 27640|KD8ORR|<None>|Jackson, Mi
 27641|WB6WTM|ERG Link|Redwood City, CA
@@ -854,7 +854,7 @@
 27644|VA3JMF|146.835-|Bolton, ON
 27645|VA3ABS|146.445|Mississauga, ON
 27646|VA3VAZ|144.330|Wasaga Beach ON
-27647|N2YXZ|445.975|Carle Place NY
+27647|N2YXZ|146.590|Carle Place NY
 27648|M6EMT|144|Banningham, Norfolk, UK
 27649|W7UZO|446.200|Spokane/WA/USA
 27650|K7ywf|147.58|glendale  nevada
@@ -894,8 +894,8 @@
 27686|WB9UUS-L|000.000|Bloomington, IL
 27687|WN3A|DEV HUB|Valley Forge, PA
 27688|KD7VLI|<None>|Shell, Wyoming
-27689|WJ8G|000.0000|Warren PA
-27690|KK3L|146.745- TARGET HUB|Berkeley Springs WV
+27689|WJ8G|TARGET HUB II|Hays Mill PA
+27690|KK3L|TARGET HUB|Berkeley Springs WV
 27691|WN3A|<None>|Tannersville, PA
 27692|AB2G/R|444.325+|Summer Hill, NY
 27693|K3WS|<None>|Washington DC
@@ -931,7 +931,7 @@
 27725|KA7G|<None>|Sun City West, AZ
 27726|NG8Y|433.400|OHIO
 27727|WB9FDZ/R|147.315+|Baraboo, Wisconsin
-27728|VA3OPG|146.430|Bolton, ON
+27728|VA3EDE|146.430|Bolton, ON
 27729|N7NMS|<None>|Westernport, MD21562
 27730|KC3DES|<None>|Cambria County PA
 27731|KC3DES|<None>|Cambria County PA
@@ -941,7 +941,7 @@
 27735|KC3DES|<None>|Cambria County PA
 27736|KC3DES|<None>|Cambria County PA
 27737|W8SAI|<None>|mason ohio
-27738|KD4LPU|146.825 -|Hanover, OH
+27738|KD4LPU|<None>|Hanover, OH
 27739|AL7RV|442.675+|Homer Alaska
 27740|W2BAP|Mobile Node|New Paris, PA
 27741|N8GCI|146.740-|lakeside, Montana
@@ -1040,7 +1040,7 @@
 27836|KE7KUS/H|<None>|Surprise, AZ
 27837|W6ABJ|441.875+|Merced, CA
 27838|VE3OSH|147.120 +|Oshawa, Ontario
-27839|VA3EDE|VE3POR VHF Hub|Bolton, ON
+27839|VA3OPG|VE3POR VHF Hub|Bolton, ON
 27840|VK2XAG|439.175|Dural NSW
 27841|KN3ICK|<None>|Rialto,Ca
 27842|VA3XFT|441.950+|St. George, NB
@@ -1062,9 +1062,9 @@
 27858|K5TLJ|<None>|Trumann, Arkansas
 27859|K4GET|445.425(S)|plantation,FL USA
 27860|N5TZV|443.375 +|TX
-27861|VA3EDE|VA3OPR  Hub|Bolton, ON
+27861|VA3OPR|VA3OPR  Hub|Bolton, ON
 27862|WR3AJL|146.625-|Central City, PA
-27863|K7ILO|447.175-|NW Las Vegas, NV.
+27863|K7ILO|446.275 -|NW Las Vegas, NV.
 27864|N3PZT|147.420 S PL123.0|Gaithersburg, MD
 27865|VA3XFT|441.950+|Toronto, ON
 27866|CT1HTH|<None>|Estarreja  Portugal
@@ -1080,7 +1080,7 @@
 27876|KA4EPS|444.850+|Vero Beach, FL
 27877|KA4EPS|445.000|Boca Raton, FL
 27878|KA4EPS|444.125+|Miami, FL
-27879|KA4EPS|146.520|Marathon Key, FL
+27879|KA4EPS|444.025|Marathon Key, FL
 27880|2E0WLY|<None>|Stourbridge UK
 27881|VE6KGA|<None>|Edmonton, Alberta, Canada
 27882|VA3OHR|224.440-|Woodstock ON
@@ -1105,9 +1105,9 @@
 27903|W4PLT|<None>|Port Saint John,FL
 27904|WB2SNN|446.025|South River, NJ
 27905|WB2SNN|443.550 +|South River, NJ
-27906|WB2SNN|<None>|South River, NJ
-27907|WB2SNN|<None>|South River, NJ
-27908|WB2SNN|<None>|South River, NJ
+27906|WB2SNN|445.500|Wilton Manors, FL
+27907|WB2SNN|<None>|Deerfield Beach, FL
+27908|WB2SNN|<None>|Deerfield Beach, FL
 27909|K0KAD|<None>|Englewood, Co
 27910|KD0EAV|Remote Base|Kansas City, MO
 27911|WB5NFC|<None>|Mountain Home, AR
@@ -1122,7 +1122,7 @@
 27920|KB2FAF|147.225 +|Cortland, New York
 27921|KC1AR|147.505 -|Naples Florida
 27922|VE3OHR|147.270|Ingersoll ON
-27923|N9GMT|145.130|New Berlin, WI
+27923|N9GMT|146.520|New Berlin, WI
 27924|KC1AR|442.750|Naples Florida
 27925|N9GMT|445.850|West Allis, WI
 27926|VE3OEC|VE3EOC HUB|Haliburton ON
@@ -1145,7 +1145,7 @@
 27943|KI6IGR|<None>|Canyon Lake,Ca
 27944|KF7LVG|446.675-|Las Vegas, Nv
 27945|KN2R|Hub / |Cape Coral, SW FL
-27946|N6GKJ|Galt Remote No Tx|Galt, California
+27946|N6GKJ|HP ThinClient T5745|Mobile Operation
 27947|K4KWQ|444.150|Somewhere in Florida
 27948|CA3VRT|146.02|Chile
 27949|KC9QQM|146.740-|Bloomington/Illinois
@@ -1159,13 +1159,13 @@
 27957|N7LD|UHF remote|Las Vegas, NV
 27958|N7LD|VHF remote|Las Vegas, NV
 27959|N7LD|<None>|Las Vegas, NV
-27960|WR7NV|145.770 Simplex|Brawley CA
+27960|WR7NV|145.460-|Brawley CA
 27961|WR7NV|2M Remote|Brawley CA
 27962|N7LD|<None>|Las Vegas, NV
 27963|N7LD|<None>|Las Vegas, NV
 27964|N7LD|<None>|Las Vegas, NV
 27965|N7LD|<None>|Las Vegas, NV
-27966|N7LD|DUMMY LOAD|Las Vegas, NV
+27966|??????|<None>|??
 27967|N7LD|<None>|Las Vegas, NV
 27968|N7LD|53.010-|Las Vegas, NV
 27969|WB6TNP|6&10 meter remote|Las Vegas, NV
@@ -1175,7 +1175,7 @@
 27973|VK4DW|146.650 -|Glenella Queensland Australia
 27974|NG8Y|224.980  +|OHIO
 27975|VE3ABZ|146.55|Kitchener Ontario
-27976|KA4EPS|445.900 Simp 107.2|Woodland Park, CO
+27976|KA4EPS|445.900 Simp 103.5|Woodland Park, CO
 27977|ZL1BHD|<None>|Edgecumbe
 27978|W5LOS|146.550|Beeville, TX
 27979|WB8CXO|147.33+|Munroe Falls, Ohio
@@ -1245,7 +1245,7 @@
 28054|W5EVH|HUB|South Texas Link System
 28055|N4SV|<None>|Manassas, Virginia
 28056|KC9MRW|146.520|La Farge WI
-28057|WJ8G|<None>|Rockton, Pennsylvania
+28057|N5NWC|147.390+|Rockton, Pennsylvania
 28058|CE4FVS|147,240  600 +|Rancagua
 28059|K5DTE|146.430|Little Rock, AR
 28060|N9LAZ|442.900|Schaumburg, Il
@@ -1261,7 +1261,7 @@
 28070|KB1RXA|HUB|Weeki Wachee FL
 28071|N5UMJ|146.640-|South Texas Link System
 28072|KB3HLL|147.090+|Jersey Shore, PA
-28073|KA3NAM|446.15|Olathe, KS
+28073|KA3NAM|446.500|Olathe, KS
 28074|N3KPU|146.44|Lakewood, WA
 28075|KW4LCB|<None>|Orange City Fl 32763
 28076|KD2ANM|<None>|franklinville nj
@@ -1361,7 +1361,7 @@
 28172|AE6TV|TEST|Grand Terrace, Ca
 28173|VE6NOP|<None>|Calgary
 28174|KA7U|147.100+|490 Ripple Road, Ontario, OR
-28175|DM0RDT|439.075 -7.6|Ingolstadt
+28175|DB0POB|439.075 -7.6|Kalvarienberg
 28176|NM5SC|147.080|Rio Rancho, NM
 28177|WS5D|147.32|Clovis, New Mexico
 28178|KE5NL|443.000 MHZ|Hebbronville, Texas
@@ -1387,8 +1387,8 @@
 28198|AE6TV|449.460-|Grand Terrace, CA
 28199|AE6TV|TEST|Grand Terrace, CA
 28201|KB2AYS|445.125-|Blue Anchor/New Jersey/USA
-28202|G8SAU|<None>|Sheringham UK
-28203|G8SAU|<None>|Sheringham UK
+28202|MB7INN|434.5000|Sheringham Norfolk UK
+28203|MB7INN|<None>|Sheringham Norfolk UK
 28204|W4BRM/R|224.400|Haymarket, VA
 28205|KK5OV|444.175+|Clovis, NM
 28206|W1PI|VOIP HUB|Sebring, Florida
@@ -1421,7 +1421,7 @@
 28234|W8FSM|927.6875-|Fenton/MI
 28235|W8FSM|<None>|Fenton/MI
 28236|W8FSM|442.3500+|Fenton, MI
-28237|N8OBU|444.5750+|Fenton, MI
+28237|N8OBU|147.2600+|Flint/MI
 28238|W7RY|444.025 +|Portland Oregon
 28239|W5MHG|<None>|Albuquerque New Mexico
 28240|N3QO|145.550 simplex|Pottstown, PA
@@ -1431,7 +1431,7 @@
 28244|KE5JTS|<None>|Woodbridge, CA
 28245|K5TCP|<None>|Carrollton, TX
 28246|W0MTZ|145.430 MHz -|Northglenn/Colorado
-28247|KB8PMY|Hamilton, Oh HUB|Hamilton, OH
+28247|KB8PMY|Ohio Super HUB|Hamilton, OH
 28248|W4XP/A|223.400|Prince William County/Virginia
 28249|K1LVA|145.770|Malden/MA
 28250|K1LVA|<None>|Malden/MA
@@ -1447,7 +1447,7 @@
 28260|W3SBA|Freq Agile 2 Meters|Hellam, PA
 28261|SA3BDE|145.325Mhz|Bollnäs
 28262|N3QO|<None>|Pottstown, PA
-28263|N6GKJ|<None>|Galt, California
+28263|N6GKJ|146.58 Mhz P25|Mobile Operation
 28264|N8WKM|927.2625|Grand Rapids, MI
 28265|KC8YGT|443.200+|Fenton, MI
 28266|W8FSM|<None>|Fenton, MI
@@ -1460,7 +1460,7 @@
 28273|KC5CZX|KC5CZX-HUB|Lubbock Texas
 28274|N7BFS|444.150|Spokane, WA
 28275|K0TCR|<None>|Fischer, Tx
-28276|N4MB|146.91-|Fort Lauderdale, FL
+28276|W4AB|146.91-|Fort Lauderdale,F
 28277|KC8BDK|<None>|Mount Clemens Michigan
 28278|KC8BDK|<None>|Mount Clemens Michigan
 28279|N8WKM|Emulation|Grand Rapids, MI
@@ -1486,7 +1486,7 @@
 28299|K0JSC|449.425|Pueblo, CO
 28301|<None>|448.075|TOLLESON, AZ
 28302|N7JYS|<None>|Russell, Kansas
-28303|KB3KVA|146.580 mhz|Frederick,Maryland
+28303|KB3KVA|443.000 mhz|Frederick,Maryland
 28304|KD5DFB|442.600+|Houston, TX
 28305|KE5ICX|<None>|Lewisville, TX
 28306|K0ATM|<None>|Pilot Knob,Mo
@@ -1510,7 +1510,7 @@
 28324|KK4FRE|<None>|Estero, FL
 28325|W3YT|146.865(-)|Baltimore, MD
 28326|K4ABB/R|442.900+|Hollywood FL
-28327|K4ABB/L|445.050/S|Davie FL
+28327|K4ABB/L|445.100/S|Davie FL
 28328|W4RCC/R|442.575+ |Southwest Ranches, Florida USA
 28329|W4RCC/RPT|147.030+|Hollywood, Florida
 28330|N2DLX|TESTING|East Windsor, NJ
@@ -1565,13 +1565,13 @@
 28378|NH6M|<None>|Somewhere
 28379|NH6M|<None>|Somewhere
 28380|NH6M|<None>|Somewhere
-28381|KG0S|443.925/442.3|Omaha, NE
+28381|KG0S|443.925|Omaha, NE
 28382|AA5R|444.775+|Austin TX
 28383|K7NBO|223.440|North Bend / Or
-28384|k5TRY|TrY Hub|Springdale, AR
+28384|k5TRY|try Node|Springdale, AR
 28385|N0KQG|<None>|lake st louis, mo
 28386|WA0OJS|442.875|Corpus Christi, TX
-28387|AH6OD|146.500|Bristow, Virginia USA 
+28387|AH6OD|146.500 pl100|Bristow, Virginia USA 
 28388|K7NBO|<None>|North Bend / Or
 28389|K1RFI|145.420|Swansea, Ma
 28390|KC4HSI|<None>|Tampa, FL
@@ -1591,9 +1591,9 @@
 28405|KD2SL/R|224.120-|Syracuse, NY
 28406|K2XI|<None>|Farmington, AR
 28407|K6JR|448.800-|Evanston, Wyoming
-28408|W8SAI|<None>|guard tower
+28408|W8SAI|927.6625|guard tower
 28409|N6RXL|145.725|Yucaipa,Ca.
-28410|KB1AEV|Testing|Enfield,CT
+28410|KB1AEV|444.950 Testing|Enfield,CT
 28411|N6GKJ|RX Only|Lodi, California
 28412|N6GKJ|RX Only|Acampo, Ca
 28413|N6GKJ|<None>|Stockton, Califormia
@@ -1645,7 +1645,7 @@
 28464|KK7AV|438.500 s|South Bend, IN
 28465|KK7AV|438.500 s|South Bend, IN
 28466|W8XDR|<None>|Clyde, OH
-28467|VK3ANT|146.515|Burwood East, vic
+28467|VK3ANT|146.515|Burwood East, Vic
 28468|MB7ICE|145.2375|Cramlington UK
 28469|KI6LPZ|<None>|San Diego, CA
 28470|KJ6KHF|<None>|beaumont, calif
@@ -1666,7 +1666,7 @@
 28485|w4dwn|<None>|TBD
 28486|AE6FW|444.475|Sunnyvale, California
 28487|AE6FW|<None>|Sunnyvale, California
-28488|W6ABJ|<None>|test bench
+28488|W6ABJ|146.5|test bench
 28489|AB3YZ|146.09 +|Doylestown/PA/Bucks County
 28490|KA9WXN|<None>|Greenfield
 28491|KA9WXN|<None>|Greenfield
@@ -1711,13 +1711,13 @@
 28530|K0DMF|443.875+|North Branch, MN
 28531|WD4SCD|<None>|Largo, Florida
 28532|KP4TR|147.525|Seffner, Florida
-28534|KJ6NRO|146.625 (-)|Sonora California
-28535|DM0RDT|<None>|Ingolstadt
-28536|W3GFD|443.050+|Grand Valley, Pa
+28534|KJ6NRO|442.475 +|Sonora California
+28535|DB0POB|NO FREQUENCY|Kalvarienberg
+28536|W3GFD|<None>|Warren
 28537|W3GFD|443.050+|Grand Valley PA
 28538|W3GFD|444.475+|Scandia PA
 28539|W3GFD|<None>|Sugar Grove, PA
-28540|W2ZED|<None>|Sinclairville NY USA
+28540|W2ZED|<None>|kennedy ny14747
 28541|LZ2BH|<None>|Pavlikeni
 28542|W9RCG|<None>|Pewaukee/WI
 28543|K6IB|<None>|Fremont, CA
@@ -1739,8 +1739,8 @@
 28560|wb6nil|<None>|TBD
 28561|BG1HTH|<None>|Beijing CN
 28562|BG1HTH|<None>|Beijing CN
-28563|N9GMT|445.550|Princeton, WI
-28564|MB7IAB|145.2875|Newcastle Upon Tyne, UK
+28563|N9GMT|445.150|Princeton, WI
+28564|GB3NT-R|433.000 +1.600|Newcastle Upon Tyne, UK
 28565|KD8EYF|<None>|Sterling Heights, MI
 28566|NH6XO|443.775|Honolulu, HI
 28568|KC6NKK|927.550-|Barstow, CA
@@ -1752,8 +1752,8 @@
 28574|4Z5UG|Test|Efrat/Israel
 28575|KF4NQN|440 MHZ|Monettta, SC
 28576|NA5AA|<None>|Granbury, TX
-28577|KI6KGN|KI6KGN 446.0|Fremont, CA
-28578|W7QO|Portable Repeater|Atlanta, GA
+28577|KI6KGN|446.0 Simplex DPL506|Fremont, CA
+28578|K7KPA|Personal Repeater|Atlanta, GA
 28579|DJ2RF|<None>|Schrobenhausen / Sandizell
 28580|KA7G|<None>|mobile
 28581|KA7G|<None>|mobile
@@ -1771,10 +1771,10 @@
 28594|K6PNG|449.350-|Topock, AZ 
 28595|K6PNG|449.125 -|Lake Havasu City Arizona
 28596|W6WAW|<None>|Whittier, CA
-28597|VK6MT|439.150|Katanning, West Aust
-28598|VK6ZGN|438.000|Perth - Western Australia
+28597|VK6MT|145.350|Katanning, West Aust
+28598|VK6ZGN|439.150|Perth - Western Australia
 28599|W2DB|446.000|cedar park, tx
-28601|KL3MG|<None>|Wasilla,Alaska,USA
+28601|KL3MG|433.950|Wasilla,Alaska,USA
 28602|KB6UOO|<None>|TBD
 28603|KB6UOO|<None>|TBD
 28604|N2LYJ|927.9250|Upstate New York
@@ -1805,11 +1805,11 @@
 28630|W5GM|<None>|Flower Mound, Tx
 28631|W5GM|<None>|Flower Mound, Tx
 28632|W5GM|<None>|Flower Mound, Tx
-28633|W7QO|446.050|Atlanta, GA
+28633|W7QO|Simplex Node|Atlanta, GA
 28634|W7QO|Hub|Atlanta, GA
 28635|N9UDO|<None>|Baraboo, Wisconsin
 28636|W8JL|<None>|Marietta, Ohio
-28637|M0OMT-L|434.500|Newcastle Upon Tyne, UK
+28637|MB7IAB-L|145.2875|hebburn
 28638|KB0BS|<None>|Aurora, CO
 28639|W8JL|<None>|Marietta, Ohio
 28640|W5EVH|<None>|STXLS
@@ -1829,7 +1829,7 @@
 28654|W7QO|443.050+|Atlanta, GA
 28655|IW0HKS|<None>|Rome/Italy
 28656|W7QO|442.025+|Atlanta, GA
-28657|W7QO|<None>|Atlanta, GA
+28657|W7QO|Portable Repeater|Atlanta, GA
 28658|KC5AFM|146.520|Cedar Park, TX
 28660|N7LD|<None>|Las Vegas, NV
 28661|N7LD|<None>|Las Vegas, NV
@@ -1846,23 +1846,23 @@
 28673|K9NZF|<None>|Randolph County, IN
 28674|N8PXW|442.000+|Uniontown, Ohio
 28675|W3RCS|444.950+|Altoona, PA
-28676|KG7AJY|Personal Node|Orem, UT
+28676|KG7AJY|Simplex Node|Orem, UT
 28677|N8GCI|<None>|mobile
 28678|N8GCI|<None>|mobile
 28679|KB9PTI|443.975 +|Chicago, Illinois
-28681|k5TRY|145.7300 (MicroStar)|Springdale, AR
+28681|k5TRY|try Node|Springdale, AR
 28682|AB6S|<None>|Fresno, CA
 28683|NN1D|145.420|Swansea, Ma
 28684|KC5FOG|443.275 +|Galveston, TX
 28685|KC5FOG|147.020 +|Galveston, TX
-28686|k5TRY|445.0500 (MicroStar)|Springdale, AR 
+28686|k5TRY|try Node|Springdale, AR 
 28687|VA6FIE|145.37-|lethbridge, alberta, canada
-28688|W8FAA|<None>|Atwater, Ohio
+28688|W8FAA|Test|Atwater, Ohio
 28689|KP4TR|IRLP Node 4085|Seffner, Florida
 28690|N3NKV|<None>|Erie, PA
 28691|KB9RRN|<None>|Greenwood,IN
 28692|W3RCS|Hub|State College, PA
-28693|K7KPA|Personal Node|Midway, UT
+28693|K6RRC|Simplex Node|Provo, UT
 28694|KF0PB|445.200|Harrison AR
 28695|W3HZU|29.680 -|York, PA
 28696|K6AEP|145.710 Simplex|Lincoln, CA
@@ -1904,10 +1904,10 @@
 28733|K5ILS|<None>|Katy Texas
 28734|W4LSC|927.475-|Kingman, AZ
 28735|KC1AR|442.750|Naples Florida
-28736|K0SWI|146.82|Council Bluffs, IA
+28736|KG0S|446.2|Omaha, NE
 28737|WD5ETD/A|444.150|Jenks, OK
 28738|K5ILS|<None>|Katy, Texas
-28739|VE2PF|<None>|Montreal/Quebec/Canada
+28739|ve2mrc|147.120 +|Montreal/Quebec
 28740|KD6NAR|446.425|Las Vegas, NV
 28741|K1LNX|<None>|Johnson City, TN
 28742|WX4CB|<None>|Port Orange, Florida
@@ -1919,8 +1919,8 @@
 28748|KB3YVJ|<None>|Richland Twp, PA
 28749|KC5DAQ|<None>|Waller, Tx
 28750|KC5DAQ|<None>|Waller, Tx
-28751|k5TRY|144.9600 (pLRI)|Springdale, AR
-28752|k5TRY|445.1250 (pLRI)|Springdale, AR
+28751|k5TRY|try Node|Springdale, AR
+28752|k5TRY|try Node|Springdale, AR
 28753|K5NWZ|<None>|Pearland Texas
 28754|KA2PBT|<None>|White Twp, NJ
 28755|N4LRA|<None>|Dumfries, Vrginia
@@ -1931,15 +1931,15 @@
 28760|N6HU|145.210-|Soledad,Ca
 28761|W3WAN|145.230-|Tannersville, PA
 28762|VE3RSD|443.8125 +|Mississauga, ON
-28763|HB3YFI|145.330|Bioggio, Ticino, Switzerland
+28763|HB9FHE-R|439.000 -7.6Khz|Bioggio, Ticino, Switzerland
 28764|KH7MS|444.150 +|Kailua-Kona
-28766|HB3YFI|<None>|Bioggio, Ticino, Switzerland
+28766|KH6OK-R|145.330|Bioggio, Ticino, Switzerland
 28767|W3RCS|<None>|Altoona, PA
 28768|W3RCS|<None>|Altoona, PA
 28769|KD6AXR|<None>|Long Beach , CA
-28770|k5TRY|<None>|Springdale, AR
-28771|K5TRY|teSt|Springdale, AR
-28772|k5TRY|teSt|Springdale, AR
+28770|k5TRY|teSt|Springdale, AR
+28771|K5TRY|try Node|Springdale, AR
+28772|k5TRY|try Node|Springdale, AR
 28773|k5TRY|teSt|Springdale, AR
 28774|KB1TTO|<None>|New Haven , CT 06511
 28775|KB9PTI|<None>|Chicago, Illinois
@@ -1952,7 +1952,7 @@
 28783|N1DOT|eL (L)|Turner, Me
 28784|N6HU|South County Hub|Soledad,Ca
 28785|K1IF|Echolink|Swansea, Illinois
-28786|WH6PS|146.500|Hau'ula, Oahu, Hawaii USA
+28786|WH6PS|146.500 pl100|Hau'ula, Oahu, Hawaii USA
 28787|KE6PCV|<None>|Corona, CA
 28788|K6PNG|448.900-|Victorville, CA
 28789|K8SN|442.075+|Morley, MI
@@ -1961,8 +1961,8 @@
 28792|KB4FMO|146.850 -|Tecumseh Station Alabama
 28793|K5DLQ|<None>|Magnolia, TX
 28794|GD6ICR|70.350|Peel, Isle of Man
-28795|KC4RPP|146.640|Naples Florida
-28796|KC4RPP|443.100|Naples Florida
+28795|KC4RPP|146.640|Naples, FL
+28796|KC4RPP|443.100|Naples, FL
 28797|VK6MOO|438.775|Geraldton Western Australia
 28799|VK6MOO|145.400|Geraldton Western Australia
 28801|KA5QDG|<None>|Houston,Texas
@@ -1989,7 +1989,7 @@
 28823|KB8ZGL|<None>|Michigan
 28824|KB8ZGL|<None>|Michigan
 28825|KA2QJO|444.050+|Watertown, NY
-28826|K6PQN|927.3250-|Upland, Calif.
+28826|K6PQN|927.3250-|UPLAND, CA.
 28827|KF5BRU|147.550|Harrison,AR
 28828|K5BIQ|442.050|Rio Rancho, NM
 28829|W5BI|<None>|Rio Rancho, NM
@@ -2032,18 +2032,18 @@
 28867|KD8SEP|<None>|Morrow, OH
 28868|WB0YLE|NJPA Development Hub|Morrisville, PA
 28869|N2RQS|444.325+|Cortland NY
-28870|AD5OU|<None>|houston
+28870|AD5OU|443.525|Houston, TX
 28871|DF1AX|<None>|Trautmannshofen Neumarkt Opf
 28872|KC2VNM|USA KAPATID HUB|Elizabeth NJ
 28873|KC2VNM|SCANi NESB HUB|Elizabeth NJ
 28874|AF6XW|<None>|Long Beach, CA USA
-28875|K7EET|447.600|Las Vegas, NV
+28875|K7EET|Node Testing|Las Vegas, NV
 28876|KP4TR|446.300|Seffner, Florida
 28877|KD0OCT|<None>|St. Louis MO USA
 28878|W6TUG|147.570|quitman texas
 28890|WN3A|<None>|Tannersville, PA
 28891|KA0YIW|Independence, MO HUB|Independence, Mo
-28892|KA0YIW|446.900 Simplex|Independence, Mo
+28892|KA0YIW|146.400 Simplex|Independence, Mo
 28894|N6IQY|<None>|Yuba City,ca 95991
 28898|WB3DEL|<None>|Wilmington, Delaware
 28899|N6INC|<None>|MILPITAS CA.
@@ -2056,7 +2056,7 @@
 28907|N6INC|<None>|  MANILA P I
 28908|KF5RJQ|<None>|Redwood City, CA
 28909|W5CPU|444.475+ PL 156.7|Cypress,TX
-28910|N8OHU|146.715 -|Andover Ohio
+28910|N8OHU|<None>|Andover Ohio
 28912|N8OHU|<None>|Andover Ohio
 28913|N8OHU|<None>|Andover Ohio
 28914|KK4GUB|<None>|Southwest Ranches Florida
@@ -2120,7 +2120,7 @@
 28975|KF7TBT|445.010|north las vegas , nevada 89030
 28976|N6HU|Monterey Bay Hub|Monterey,Ca
 28977|KA4EPS|146.520|Murphy, NC
-28978|KA4EPS|<None>|Key West, FL
+28978|KA4EPS|146.550 SIMP 107.2|Key West, FL
 28979|KJ6PPG|<None>|San Jose, CA
 28980|W9JSL|TEST HUB|Appleton, WI
 28981|KU9R|443.750+|Jackson, MO
@@ -2143,11 +2143,11 @@
 28998|K7ZAA|Netcom HUB|Myrtle Point Oregon
 29020|KC8MUS|<None>|Washington
 29021|K7ZAA|<None>|Myrtle Point Oregon
-29022|W6REB|<None>|Santa Cruz, Ca.
+29022|W6REB|<None>|Test Bench
 29023|ZL1OE|<None>|Hillcrest, Auckland
 29024|IK0YYY|430.375 + 5 MHz|Rome, Lazio, Italy
 29025|VE3OBI|444.525|Oshawa/Ontario/Canada
-29026|N5JMD|<None>|LAWRENCEVILLE, GEORGIA
+29026|N5JMD|442.9000|LAWRENCEVILLE, GEORGIA
 29027|N6DCP|SCANi|SGV, California
 29028|N6DCP|<None>|SGV, California
 29029|N6DCP|<None>|California
@@ -2160,13 +2160,13 @@
 29036|N6DCP|<None>|SGV, CA
 29037|k5TRY|teSt|Springdale, AR
 29038|k5TRY|teSt|Springdale, AR
-29039|k5TRY|<None>|Springdale, AR
+29039|k5TRY|teSt|Springdale, AR
 29040|K2NSX|UHF|Chicago, Il.
 29041|K2NSX|UHF|Chicago, Il.
 29042|SM0KJD|<None>|Sweden Haninge
 29043|W3SBA|HUB|York, PA
 29044|VE3RKN|444.4+|Garson, Ontario
-29045|W6REB|<None>|Redding, Ca.
+29045|W6REB|<None>|Test Bench
 29046|KA1LEO|445.9375|Waltham, MA
 29047|PA3DFN|430.925|Spijkenisse, The Netherlands
 29048|KB6BZZ|<None>|Apple Valley, CA
@@ -2198,7 +2198,7 @@
 29074|DK6PX|<None>|Andechs
 29075|DB0VV|<None>|Idar-Oberstein
 29076|KA0YIW|Echolink (KA0YIW-L)|Independence, Mo
-29077|KA0YIW|Test Node NO RF|Independence, Mo
+29077|KA0YIW|446.900 Simplex|Independence, Mo
 29078|WX4ADX|<None>|Orlando, Florida
 29079|WB5YFX|146.78- Hilsboro, TX|Hillsboro TX
 29080|N6DCP|<None>|SGV, CA
@@ -2226,18 +2226,18 @@
 29103|KC2RQR|447.300 Mhz -|Staten Island, NY
 29104|KQ6RC|<None>|HAYWARD CA
 29105|W7WO|<None>|Lacey, Wa
-29106|K1IF|HUB Node|Swansea, Illinois
+29106|K1IF|<None>|Swansea, Illinois
 29107|W8FSM|<None>|fenton/mi
 29108|W8FSM|<None>|fenton/mi
 29109|VA3UV|<None>|Mississauga, ON
 29110|N6XON|<None>|Gilbert, AZ
 29112|KB9BNA|<None>|Milwaukee, WI
 29113|KJ6VOX|<None>|Roseville CA
-29114|EA2BKH|430.950|Zaragoza/España
+29114|EA2BKH|145.287.5|Zaragoza/España
 29115|KC7MRQ|146.700-|Ronan, Montana
 29116|M3JZT|<None>|South Yorkshire UK
 29117|N6HU|Northern Ca. Hub|Soledad,Ca.
-29118|N6HU|CA,HI,VA,TX HUB|Soledad,Ca
+29118|N6HU|CA.VA.HI. HUB|Soledad,Ca
 29119|KJ4QAL|442.750|St.Petersburg, FL  USA
 29120|W6WCN|224.400-|San Diego,Ca
 29121|W6WCN|<None>|HAYWARD CA
@@ -2261,9 +2261,9 @@
 29140|OE1XAR-T|433,100|Vienna Austria
 29141|KB3ICC|446.100|Pottsville, PA
 29142|KD5KNZ|<None>|Baton Rouge, LA
-29143|KD4LPU|146.825 -|XIPAR 64 Test - Hanover, OH
-29144|N7YUR|441.550|Cave Junction, Oregon 97523
-29145|N7YUR|eL (L) Hub|Cave Junction, Oregon 97523
+29143|KD4LPU|146.825 -|Hanover, OH
+29144|N7YUR|441.550|Cave Junction, OR
+29145|N7YUR|eL (L) Hub|Cave Junction, OR
 29146|DB0LY|439.325 -7.6|Lychen/Brandenburg
 29147|N6AJB|447.020- San G|Banning, CA
 29148|AF6HP|449.600- Santiago|Banning, CA
@@ -2287,7 +2287,7 @@
 29166|W4RCC|<None>|Port Saint Lucie Florida
 29167|KF6FM|927.7375|CA
 29168|KF6FM|927.2625|CA
-29169|KI6IES|<None>|Adelanto, CA USA
+29169|KJ6KTV|927.2625|Victorville,CA
 29170|KI6IES|<None>|Adelanto, CA USA
 29171|KI6IES|<None>|Adelanto, CA USA
 29172|WH6CXE|<None>|Korat, Thailand
@@ -2319,19 +2319,19 @@
 29199|AA2RF|<None>|Portable test
 29201|AA2RF|<None>|Portable test
 29202|AA2RF|<None>|Portable test
-29203|KE3RQ|446.950|fairfield,ca
+29203|KE3RQ|444.125+|Fairfield,Ca
 29204|W9GLB|<None>|Las Vegas, Nevada
-29205|KC7WSU|447.050-|Saratoga Springs, Utah, USA
+29205|KC7WSU|447.050-|Saratoga Springs, UT
 29206|KC7WSU|449.250-|Lindon, Utah, USA
 29207|KC7WSU|<None>|Saratoga Springs, Utah
 29208|KC7WSU|<None>|Saratoga Springs, Utah
 29209|KC7WSU|<None>|Saratoga Springs, Utah
-29210|KC7WSU|<None>|Saratoga Springs, Utah, USA
+29210|KC7WSU|145.590|Saratoga Springs, UT
 29211|KC7WSU|<None>|Saratoga Springs, Utah
 29212|KC7WSU|<None>|Saratoga Springs, Utah
 29213|KC7WSU|<None>|Saratoga Springs, Utah
 29214|KC7WSU|<None>|Saratoga Springs, Utah
-29215|W6SEL|<None>|Sierra Vista, AZ
+29215|W6SEL-R|<None>|Sierra Vista, ArizonA
 29216|K7AZ|HillTop Hub|Lompoc, Ca
 29217|WH7JM|146.500|Keaau, Hawaii USA
 29218|K2MPM|<None>|Manville, New Jersey
@@ -2345,7 +2345,7 @@
 29227|WB6ZSU|927.2500 -|Irvine, CA
 29228|KF0KR|<None>|Pueblo/Co/USA
 29230|K8ATX|146.760|Bessemer/MI
-29231|W6RTF|145.490 -offset|Salinas,ca.
+29231|W6RTF|145.490|Salinas,ca.
 29232|W6RTF|<None>|Salinas,ca.
 29233|KB3ZQF|<None>|Spring City, PA
 29234|NW8S|Echolink|Elyria Ohio
@@ -2375,7 +2375,7 @@
 29259|NP2Q|<None>|ST.THOMAS  VIRGIN ISLAND
 29260|IZ3GED|<None>|Campodarsego
 29261|KB8JNM-R|<None>|East Liverpool, Ohio
-29262|KJ6NRO|442.475+|Sonora California
+29262|KJ6NRO|146.625 -|Sonora California
 29263|KJ6NRO|146.625|Sonora Calif
 29264|KB9SNE|<None>|Green Bay WI
 29265|WL7LP|147.350|North Pole, Alaska
@@ -2383,7 +2383,7 @@
 29267|AB6IS|<None>|Stockton, CA
 29268|KD8PGY|147.075MHZ |Ironwood,Michigan
 29269|KA9RIX|<None>|Madeira Beach FL
-29270|N6HU|Bench Testing Node|Soledad,Ca
+29270|N6HU|Bench Testing Server|Soledad,Ca
 29271|KD8GVO|147.560|Brownwood,Texas USA
 29272|K8BMC|Test|Sandusky, OH
 29273|KD6GDB|445.040 -|Woodland Hills, CA
@@ -2391,9 +2391,9 @@
 29275|K7AZ|443.275|Lompoc, Ca
 29276|K7AZ|teSt|Lompoc, Ca
 29277|WH6FG|HI, TX, CA, VA HUB|Kalaheo, Kauai, Hawaii USA
-29278|K6PQN|440 mhz Simplex|Upland, Calif.
+29278|K6PQN|Node Testing|UPLAND, CA.
 29279|N7HYV|<None>|Pahrump,NV
-29280|K6PQN|Remote Base|Upland, Calif.
+29280|K6PQN|Remote Base|UPLAND, CA.
 29281|KJ4NDP|DV-Dongle D-Star|Riverview, Florida
 29282|NX4Y|<None>|Tampa, FL
 29283|KB8JNM-R|224.660 -1.6|East Liverpool, Ohio
@@ -2401,32 +2401,32 @@
 29285|KB8JNM-R|<None>|East Liverpool, Ohio
 29286|W6RTF|Monterey County Hub|Salinas,ca.
 29287|W6RTF|<None>|Salinas,ca.
-29288|W4KDM|927.0125|port orange/florida/usa
+29288|W4KDM|927.0125|Port Orange/Daytona Beach/ FL
 29289|W3GFD|<None>|Grand Valley, Pa
 29290|W3GFD|<None>|Grand Valley, Pa
 29291|W3GFD|<None>|Grand Valley, Pa
 29293|W3GFD|<None>|Grand Valley, Pa
 29294|W3GFD|<None>|Grand Valley, Pa
-29295|KC2ZYD|<None>|Brick, NJ
+29295|jcksnvll|<None>|Brick, NJ
 29296|VE3WXW|444.1125|Windsor, Ontario
-29297|AC1KV|Test Node|Ansonia, CT
+29297|AC1KV|146.540|Ansonia, CT
 29298|4F2RVT|145.690 mhz|Santiago City,Isabela 
 29299|KB5ELT|441.300 +|Houston Texas
 29301|AF6YU|<None>|SAN DIEGO CA.
 29302|AF6YU|<None>|San Diego,Ca
 29303|W4KDM|<None>|Port Orange/Florida/USA
-29304|N8BHU|<None>|Kent, Ohio
+29304|N8BHU|444.300+|Kent, Ohio
 29305|N1RCW|New England Area Hub|Forestdale MA USA
 29306|K6SJH|441.875 +|Pleasanton, CA
-29307|VE3OC|145.110|Toronto, Ontario
+29307|VE3OC|442.175|Toronto, Ontario
 29308|N9XYP|<None>|Kenosha
 29309|N1CTF|444.275|Columbus, Ohio
 29310|VA3XY|147.480|Mactier Ontario
-29311|WH6FG|<None>|Kalaheo, Kauai, Hi.
+29311|KH6S|146.500|Kalaheo, Kauai, Hi.
 29312|KD5OXM|Freq Agile V/UHF|Corsicana Tx 75110
 29313|N1CTF|<None>|Columbus, Ohio
-29314|KB9LFZ|<None>|Columbus, GA
-29315|va3ark|444.825|Windsor, Ontario
+29314|KB9LFZ|446.200|Columbus, GA
+29315|VA3ARK|444.825|Windsor, Ontario
 29316|NX4Y|<None>|Wesley Chapel, Fl
 29317|KD5LWU|<None>|Cortez, Colorado
 29318|KE5HTB|146.400|Beeville, tx
@@ -2437,15 +2437,15 @@
 29323|KH6S|<None>|Kalaheo, Kauai, Hawaii
 29324|K5LEW|<None>|Ranchos De Taos, NM
 29325|KH6CED|146.600|Lanai City, Hawaii USA
-29326|W5UOK|<None>|Palestine TX
-29327|KB3TEM|<None>|East Stroudsburg PA
+29326|W5KVN|146.960|FRANKLIN, TX
+29327|KB3TEM|144.920 MHZ |East Stroudsburg PA
 29328|KB3TEM|<None>|East Stroudsburg PA
 29329|KB3TEM|<None>|East Stroudsburg PA
-29330|W6SEL|<None>|Sierra Vista, AZ
+29330|W6SEL|<None>|Cochise County, AZ.
 29331|KI6DXN|<None>|Fullerton, CA
 29332|WL7LP|Alaska AllStar Hub|North Pole, Alaska
 29334|K8RRG|146.445|Sandusky Ohio
-29335|K8RRG|K8RRG Hub|Sandusky Ohio
+29335|K8RRG|Hub|Sandusky Ohio
 29336|K4BRY|test|Pembroke Pines, FL
 29337|K7AZ|Test|Lompoc/CA
 29338|K7AZ|test|Lompoc/CA
@@ -2464,12 +2464,12 @@
 29351|KJ4QAL|<None>|St.Petersburg, FL  USA
 29352|KJ4QAL|<None>|St.Petersburg, FL  USA
 29353|WA2TQI|147.54|Mount Laurel, NJ
-29354|AG4YD|<None>|Maitland, Florida
+29354|AG4YD|442.8+|Maitland, Florida
 29355|W4DWN|<None>|TBD
 29356|W4DWN|<None>|TBD
 29357|WJ8G|<None>|Stone Hill
-29358|KB3OIL|<None>|Jefferson, Maryland
-29359|WJ8G|<None>|Stone Hill
+29358|KB3OIL|<None>|Jefferson, MD
+29359|N3JGT|147.105+|Sigel PA
 29360|VE3OC|<None>|Aurora, Ontario, Canada
 29361|KJ6ART|147.51|Turlock, CA
 29362|KB1RXA|<None>|Weeki Wachee, FL
@@ -2478,21 +2478,21 @@
 29365|KD5OXM|<None>|Corsicana Tx 75110
 29366|KB0KZR|<None>|Broomfield, CO
 29367|KA6IYS|2 Meter Remote|Weldon, CA
-29368|G4NJI|145.2875|Rotherham  Southyorkshire
+29368|G4NJI|145.2875|Rotherham  South yorkshire
 29369|4Z5AB|145.475|Rehovot Israel
 29370|WA3YOA|443.550|Gibsonia, PA
 29371|VA3OPS|146.655-|Orillia, Ontario
 29372|VE3ORR|147.210+|Orillia, ON
-29373|VE3ORR|444.550+|Orillia, ON
+29373|VE3ORC|444.550+|Orillia, ON
 29374|VK4FAQ|<None>|Logan Central, QLD, Australia
 29375|4Z5AB|<None>|Rehovot Israel
 29376|DG3AWM|<None>|Suhl
-29377|KC0LNO|<None>|Monument, Co, USA
+29377|KC0LNO|<None>|Monument, Co
 29378|W7QO|<None>|Buford, GA
 29379|W7QO|<None>|Buford, GA
-29380|W7QO|<None>|Midway, UT
+29380|W7QO|<None>|Provo, UT
 29381|W7QO|<None>|Orem, UT
-29382|KI6LNX|146.460|Otay Mesa
+29382|KI6LNX|146.460|Temp Location
 29383|NG2F|<None>|Fort Myers, FL
 29384|KJ6VDU|147.585|Elk Grove, California
 29385|VE3WXW|444.1125|Windsor, Ontario
@@ -2500,18 +2500,194 @@
 29387|VE3WXW|<None>|Windsor, Ontario
 29388|VE3WXW|<None>|Windsor, Ontario
 29389|VE3WXW|<None>|Windsor, Ontario
-29390|VE3WXW|<None>|Windsor, Ontario
+29390|VE3WXW|WX Receiver|Windsor, Ontario
 29391|K5TRY|<None>|Springdale, AR
 29392|K5TRY|teSt|Springdale, AR
-29394|k5TRY|TrY Hub|Springdale, AR
+29394|k5TRY|try Node|Springdale, AR
 29395|K5TRY|teSt|Springdale, AR
-29396|AC1KV|<None>|Ansonia, CT
-29397|AC1KV|<None>|Ansonia, CT
+29396|AC1KV|Home Base|Ansonia, CT
+29397|AC1KV|UHF Link|Ansonia, CT
 29398|K3WS|<None>|Laurel MD
 29399|K3WS|<None>|Laurel MD
+29400|K3WS|<None>|Laurel MD
 29401|K3WS|<None>|Laurel MD
 29402|K3WS|<None>|Laurel MD
 29403|K3WS|<None>|Laurel MD
+29404|KK4ONE|WEEKI WACHEE HUB|Weeki Wachee, FL 
+29405|NS7DQ|<None>|Woodlawn, TN
+29406|KB0RFC|147.435|Colorado Springs CO
+29407|N7GWW|449.250|Coulee Dam, WA
+29408|N7YUR|N7YUR Hub|Cave Junction, OR
+29409|NM5C|<None>|Silver City, NM
+29410|K0DMF|HUB|North Branch, MN
+29412|KD5TJH|<None>|Lubbock, Texas
+29413|YN1OB|446.075|Temp Loc in San Diego/Tij Mex
+29414|GM4UPX/V|70.3625|ScottishBorders
+29415|KC8YCZ|145.5|Deckerville, MI
+29416|K3DLB|<None>|Williston, Vt
+29417|K3DLB|<None>|Williston, Vt
+29418|N6HU|Bench Testing Server|Soledad,Ca
+29419|KA3KDL|144.945|Lumberton, NC
+29420|KA4EPS|<None>|Canal Point, FL
+29421|W4XP|<None>|Bluemont, VA
+29422|W4XP|<None>|Bluemont, VA
+29423|KI6CDL|<None>|Sandpoint, Idaho
+29424|KG7ANJ|146.58|phoenix az
+29425|VK3ANT|Test|Burwood East, Vic
+29426|W6TCD|<None>|95340
+29427|KA0YIW|Backup Hub Node|Independence, MO
+29428|KA0YIW|NO RF Currently|Independence, MO
+29429|KA0YIW|Test Node NO RF|Independence, Mo
+29430|KB1BVF|146.550|Westbrook, CT
+29431|W0FRC|<None>|Monument,Co
+29432|K6CLX|449.700 -|Calexico, CA
+29433|K6CLX|Echolink|Calexico, CA
+29434|N3EL|<None>|california
+29435|K2YAW|<None>|Payson, AZ
+29436|K0GUR|446.150|Denver, Colorado
+29437|K9EEZ|<None>|Brooklyn WI
+29438|KE5PTZ|<None>|Conroe, TX
+29439|KK4GUB|145.525|Southwest Ranches,. FL
+29440|N7LD|<None>|Las Vegas, NV
+29441|N7LD|<None>|Las Vegas, NV
+29442|N7LD|<None>|Las Vegas, NV
+29443|N7LD|<None>|Las Vegas, NV
+29445|N7LD|<None>|Las Vegas, NV
+29446|N7LD|<None>|Las Vegas, NV
+29447|N7LD|<None>|Las Vegas, NV
+29448|N7LD|<None>|Las Vegas, NV
+29449|N7LD|<None>|Las Vegas, NV
+29450|N7LD|<None>|Las Vegas, NV
+29451|KK4ONE|147.470|Weeki Wachee, FL 
+29452|KJ6KFB|145.535|Florin, California
+29453|SL0ZZF|<None>|Tumba, Stockholm, Sweden
+29454|W6IZK|<None>|Coarsegold,  CA
+29455|KK6BDF|<None>|Torrance, California.
+29456|KD4OZW|Kayla Girl|Naples,Florida
+29457|KD4OZW|<None>|Naples,Florida
+29458|XE2DNN|<None>|Mexicali,B.C. México
+29459|KK4JZW|446.000|Clyde, North Carolina
+29460|W6SEL-R|<None>|Sierra Vista, ArizonA
+29461|MW0DNK|430.125|Anglesey, North Wales
+29462|NH6OV|HI, CA, TX, VA HUB|Keaau, Hawaii USA
+29463|W5DK|224.580|San Antonio
+29464|W5DK|<None>|Anhalt, TX
+29465|W5DK|<None>|Anhalt, TX
+29466|W5DK|<None>|Anhalt, TX
+29467|W5DK|<None>|Anhalt, TX
+29468|W5DK|<None>|Anhalt, TX
+29469|W5DK|<None>|Anhalt, TX
+29470|W5DK|<None>|Anhalt, TX
+29471|W5DK|<None>|Anhalt, TX
+29472|W5DK|<None>|Anhalt, TX
+29473|WX4WNC|<None>|Asheville, NC
+29474|N6EX|<None>|Irvine, CA
+29475|WB6ZSU|<None>|Irvine, CA
+29476|WB6ZSU|<None>|Irvine, CA
+29477|KK4ONE|147.470|Weeki Wachee, FL 
+29478|KB9EWP|146.565|Oakland, CA
+29479|KF7ZTM|<None>|Provo, UT
+29480|WA6JQV|<None>|Vacaville,Ca.
+29481|AB5JK|444.600 +|UVALDE, TEXAS, USA
+29482|AB5JK|<None>|Uvalde, Texas, USA
+29483|AB5JK|<None>|Uvalde, Texas, USA
+29484|AB5JK|<None>|Uvalde, Texas, USA
+29485|AB5JK|<None>|Uvalde, Texas, USA
+29486|AB5JK|<None>|Uvalde, Texas, USA
+29487|AB5JK|<None>|Uvalde, Texas, USA
+29488|AB5JK|<None>|Uvalde, Texas, USA
+29489|AB5JK|<None>|Uvalde, Texas, USA
+29490|AB5JK|<None>|Uvalde, Texas, USA
+29491|N3TJJ|<None>|Lancaster, PA
+29492|PA3CPI|XRF123|Den Helder, Netherlands
+29493|K7MPR/R3|448.600-|Lake Havasu City, AZ
+29494|N5ZUA|<None>|Test
+29495|W8FAA|<None>|Atwater, Ohio
+29496|W8VT|<None>|Beckley WV
+29497|N5VRP|<None>|Hemphill, Texas
+29498|WX4WNC|<None>|Asheville, NC
+29499|W3WDD|446.175|Cullowhee NC
+29501|W3WDD|<None>|Cullowhee NC
+29502|KA7ZAU|<None>|Sparks, Nv.
+29503|W0FCM|<None>|Sealy Texas
+29504|PE5YES|Test Node Christ|Eindhoven NL
+29505|WA6DJ|146.205+|San Jose,Ca
+29506|WB9KMO|<None>|Santa Barbara, CA
+29507|WB9KMO|<None>|Santa Barbara, CA
+29508|W6RE|<None>|Palos Verdes, California, USA
+29509|WJ8G|442.000|Warren PA
+29510|WJ8G|LRS HUB|Warren PA
+29511|WB2EDV|53.61-|Sherman NY
+29512|WB2EDV|442.750+|Sherman NY
+29513|AC2JC|444.500+|Frewsburg NY
+29514|WB2DSS|443.000+|Perrysburg NY
+29515|KD3IJ|444.400+|Bradford PA
+29516|WB2EDV|444.450+|Mayville NY
+29517|W2SB|444.350+|Fredonia NY
+29518|W3VG|53.31-|Limestone NY
+29519|W3VG|444.650+|Limestone NY
+29520|K5TRA|446.525|Austin, TX
+29521|K5TRA|<None>|Austin, TX
+29522|K5TRA|<None>|Austin, TX
+29523|N3VNG|145.250-|Damascus MD
+29524|K3MAD|147.060+|Frederick MD
+29525|KB8NUF|146.805-|Oakland MD
+29526|KB3UAG|145.250-|St. Thomas PA
+29527|KK3L|146.745-|Berkeley Springs WV
+29528|KK3L|224.700-|Berkeley Springs WV
+29529|KK3L|443.850+|Berkeley Springs WV
+29530|W3WGX|146.835-|Seven Springs PA
+29531|KK3L|147.240+|Cumberland MD
+29532|WA3P|443.725+|Mount Davis PA
+29533|VE3OBI|<None>|Oshawa/Ontario/Canada
+29534|VE2PF|<None>|Repentign/QC/Canada
+29535|AD5OU|<None>|houston
+29536|AD5OU|<None>|houston
+29537|AD5OU|<None>|houston
+29538|AD5OU|<None>|houston
+29539|AD5OU|<None>|houston
+29540|VE2PF|<None>|Repentign/QC/Canada
+29541|N2ADK|<None>|Munnsville, New York
+29542|WD5IEH|HUB|San Antonio, TX
+29543|WD5IEH|<None>|San Antonio, TX
+29544|WD5IEH|<None>|San Antonio, TX
+29545|WD5IEH|<None>|San Antonio, TX
+29546|WD5IEH|<None>|San Antonio, TX
+29547|WD5IEH|<None>|San Antonio, TX
+29548|WD5IEH|<None>|San Antonio, TX
+29549|WD5IEH|<None>|San Antonio, TX
+29550|WD5IEH|<None>|San Antonio, TX
+29551|WD5IEH|<None>|San Antonio, TX
+29552|WD5IEH|<None>|San Antonio, TX
+29553|WD5IEH|<None>|San Antonio, TX
+29554|WD5IEH|<None>|San Antonio, TX
+29555|WD5IEH|<None>|San Antonio, TX
+29556|WD5IEH|<None>|San Antonio, TX
+29557|WD5IEH|<None>|San Antonio, TX
+29558|WD5IEH|<None>|San Antonio, TX
+29559|WD5IEH|<None>|San Antonio, TX
+29560|WD5IEH|<None>|San Antonio, TX
+29561|WD5IEH|<None>|San Antonio, TX
+29562|VE3YGR|147.270+|Noelville, ON
+29563|N7IWQ|<None>|South Jordan, UT
+29564|W7THE|<None>|Issaquah, WA
+29565|db0pm|439,075, -|Hausham
+29566|W3HZU|29.680|York, PA
+29567|KB9LFZ|<None>|Columbus, GA
+29568|WA3LCO|<None>|Erie, Pa
+29569|K7IZA|<None>|TBD
+29570|KC7VE|<None>|Renton, Wa
+29571|AC0KQ|434.500|Evergreen, CO
+29572|KB9LFZ|<None>|Columbus, GA
+29573|KB9LFZ|<None>|Columbus, GA
+29574|KB9LFZ|<None>|Columbus, GA
+29575|KB9LFZ|<None>|Columbus, GA
+29576|PA3CPI|<None>|Den Helder, Netherlands
+29577|K2DLS|<None>|Aberdeen, NJ
+29578|K7EQ|NA|Seattle, Washington
+29579|KA7ZAU|<None>|Sparks, Nv.
+29580|N1TY|<None>|Davie, FL
+29581|KB1VKY|<None>|Longmeadow, MA.
 90101|WB6NIL|<None>|Test Bench
 90102|WB0YLE|146.55 RANGER NODE|Morrisville PA
 90103|W2QW|146.5500|Green Brook, NJ

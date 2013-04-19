@@ -1,22 +1,6 @@
 <?php 
 include "header.php";
 
-$node = @trim(strip_tags($_GET['node']));
-$group = @trim(strip_tags($_GET['group']));
-$nodeURL = "http://stats.allstarlink.org/nodeinfo.cgi?node=$node";
-
-if (empty($node) AND empty($group)) {
-    die ("Please provide node number or group name. (ie link.php?node=1234 | link.php?group=name)");
-}
-
-// Type = group or node for server.php?
-if (!empty($group)) {
-    $type = 'group';
-    $node = $group;
-} else {
-    $type = 'node';
-}
-
 // Get Allstar database file
 $db = "astdb.txt";
 $astdb = array();
@@ -32,9 +16,43 @@ if (file_exists($db)) {
     fclose($fh);
 }
 
-if (array_key_exists($node, $astdb)) {
-    $nodeRow = $astdb[$node];
-    $info = $nodeRow[1] . ' ' . $nodeRow[2] . ' ' . $nodeRow[3];
+// get URI
+$node = @trim(strip_tags($_GET['node']));
+$group = @trim(strip_tags($_GET['group']));
+$voter = @trim(strip_tags($_GET['voter']));
+
+if (empty($node) AND empty($group)) {
+    die ("Please provide a properly formated URI. (ie link.php?node=1234 | link.php?group=name)");
+}
+
+// Read allmon INI file
+if (!file_exists('allmon.ini')) {
+    die("Couldn't load ini file.\n");
+}
+$config = parse_ini_file('allmon.ini', true);
+#print "<pre>"; print_r($config); print "</pre>";
+
+// Type = voter, group or node for server.php?
+if (!empty($group)) {
+    $type = 'group';
+    $node = $group;
+    $heading = $group;
+} elseif (!empty($voter)) {
+    $type='voter';
+    $node=$voter;
+    $heading = $voter;
+} else {
+    $type = 'node';
+    $nodeURL = "http://stats.allstarlink.org/nodeinfo.cgi?node=$node";
+
+    // If $node is in Allstar database
+    if (array_key_exists($node, $astdb)) {
+        $nodeRow = $astdb[$node];
+        $info = $nodeRow[1] . ' ' . $nodeRow[2] . ' ' . $nodeRow[3];
+        $heading = "Node <a href='$nodeURL' target='_blank'>$node</a> $info";
+    } else {
+        $heading = "Node <a href='$nodeURL' target='_blank'>$node</a>"; 
+    }
 }
 
 // Build a list of nodes in the group
@@ -88,17 +106,7 @@ if ($nodesInGroup > 0) {
     });
 </script>
 <h2>
-<?php 
-    if ($type == 'node') {
-        if (empty($info)) {
-            print "Node <a href='$nodeURL' target='_blank'>$node</a>"; 
-        } else {
-            print "Node <a href='$nodeURL' target='_blank'>$node</a> $info";
-        }
-    } else {
-        print "$group";
-    }
-?>
+<?php echo $heading; ?>
 </h2>
 
 <!-- Connect form -->

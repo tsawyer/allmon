@@ -9,8 +9,15 @@ if (empty($_GET['node']) && empty($_GET['group'])) {
 }
 
 // Read parameters passed to us
-$node = @trim(strip_tags($_GET['node']));
-$group = @trim(strip_tags($_GET['group']));
+if (isset($_GET['node'])) {
+    $type = 'node';
+    $node = @trim(strip_tags($_GET['node']));
+} elseif (isset($_GET['group'])) {
+    $type = 'group';
+    $group = @trim(strip_tags($_GET['group']));
+} else {
+    die ('Unknown type request!');
+}
 
 // Get Allstar database file
 $db = "astdb.txt";
@@ -70,6 +77,10 @@ if (!empty($group)) {
     $fp = connect($config[$node]['host']);
     login($fp, $config[$node]['user'], $config[$node]['passwd']);
 
+    if(isset($config[$node]['node'])) {
+        print $config[$node]['node'];
+        $node = $config[$node]['node'];
+    }
     $response = getNode($fp, $node);
     print "<table class='gridtable'>";
     printNode($node, $response);
