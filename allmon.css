@@ -118,6 +118,9 @@ table.gridtable tr.rColor td {
       background-color: #8BA51A; color: white;
 }
 
+table.gridtable tr.cColor td {
+      background-color: #FF9900; color: white;
+}
 .disconnect {
     font-size: 14px;
     text-align: left;

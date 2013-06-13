@@ -175,7 +175,9 @@ function printNode ($localNode, $connectedNodes) {
         if ($node['keyed'] == 'yes') {
             $tr = '<tr class="rColor">';
             #$node['last_keyed'] = 0;
-        } else {
+    } elseif ($node['mode'] == 'C') {
+        $tr = '<tr class="cColor">';
+    } else {
             $tr = '<tr>';
         }
 
