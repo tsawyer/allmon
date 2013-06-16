@@ -22,9 +22,9 @@ if (preg_match("/voter\.php\?node=(\d+)$/", $uri, $matches)) {
 <meta name="keywords" content="allstar monitor, app_rpt, asterisk">
 <meta name="author" content="Tim Sawyer, WD6AWP">
 <link type="text/css" rel="stylesheet" href="allmon.css">
-<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script type="text/javascript" src="jquery.cookie.js"></script>
 <script type="text/javascript" src="allmon.js"></script>
 </head>

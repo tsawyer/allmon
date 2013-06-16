@@ -1,6 +1,7 @@
 <?php
 #print date("Y-m-d H:i:s") . "<br/>\n";
 #print microtime() . "<br/>New voter app under development.<br/>\n";
+
 include('allmon.inc.php');
 
 // Read parameters passed to us

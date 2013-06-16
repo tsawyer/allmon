@@ -54,9 +54,9 @@ if (array_key_exists($node, $astdb)) {
 
         }
         
-        // Go and repeat every 0.35 seconds.
+        // Go and repeat every 0.65 seconds.
         updateVoter();
-        setInterval(updateVoter, 350);
+        setInterval(updateVoter, 650);
     });            
 </script>
 <h2>

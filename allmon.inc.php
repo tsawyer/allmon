@@ -3,7 +3,8 @@
 function get_response($fp) {
     $response = '';
     while (TRUE) {
-        $str = fgets($fp, 1024);
+        #$str = fgets($fp, 1024);
+        $str = fgets($fp);
         if (strlen(trim($str)) != 0 ) {
             $response .= $str;
         } else {
@@ -35,7 +36,9 @@ function login($fp, $user, $password) {
     // Login
     fwrite($fp,"ACTION: LOGIN\r\nUSERNAME: $user\r\nSECRET: $password\r\nEVENTS: 0\r\n\r\n");
     $login = get_response($fp);
-    if (!preg_match('/Response: Success.*Message: Authentication accepted/s', $login)) {
+    #print $login;
+    if ('ion accepted' == substr($login, -12)) {
+    #if (!preg_match('/Response: Success.*Message: Authentication accepted/s', $login)) {
         die("Login failed!\n");
     }
 }
