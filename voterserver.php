@@ -91,6 +91,7 @@ foreach($nodes as $nodeNum => $clients) {
     }
     print "</table><br/>\n";
 }
+usleep(10000);
 
 function get_voter($fp) {
 

@@ -49,14 +49,13 @@ if (array_key_exists($node, $astdb)) {
             }
             ajax_request = $.ajax( { url:'voterserver.php', data: { 'node' :  <?php echo $node; ?>}, type:'get', success: function(result) {
                     $('#link_list').html(result);
-                }
+                }, complete: updateVoter, timeout: 30000
             });
 
         }
         
-        // Go and repeat every 0.65 seconds.
+        // Go.
         updateVoter();
-        setInterval(updateVoter, 650);
     });            
 </script>
 <h2>

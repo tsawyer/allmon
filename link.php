@@ -69,13 +69,6 @@ if (!empty($group)) {
 }
 #print_r($nodes); print "$type $node";
 
-// Set Refresh interval
-$nodesInGroup=count($nodes);
-$interval = 1000;
-if ($nodesInGroup > 0) {
-    $interval = 1000 * $nodesInGroup;
-}
-
 ?>
 <script type="text/javascript">
     // prevent IE caching
@@ -95,14 +88,12 @@ if ($nodesInGroup > 0) {
             }
             ajax_request = $.ajax( { url:'server.php', data: { '<?php echo $type; ?>' : '<?php echo $node; ?>'}, type:'get', success: function(result) {
                     $('#link_list').html(result);
-                }
+                }, complete: updateServer, timeout: 30000
             });
         }
         
-        // Go and repeat every 1 second.
+        // Ready... set... go.
         updateServer();
-        setInterval(updateServer, <?php echo $interval; ?>);
-
     });
 </script>
 <h2>

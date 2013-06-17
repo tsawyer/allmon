@@ -77,15 +77,16 @@ if (!empty($group)) {
     $fp = connect($config[$node]['host']);
     login($fp, $config[$node]['user'], $config[$node]['passwd']);
 
-    if(isset($config[$node]['node'])) {
-        print $config[$node]['node'];
-        $node = $config[$node]['node'];
-    }
-    $response = getNode($fp, $node);
-    print "<table class='gridtable'>";
-    printNode($node, $response);
-    print "</table>";
+        if(isset($config[$node]['node'])) {
+            print $config[$node]['node'];
+            $node = $config[$node]['node'];
+        }
+        $response = getNode($fp, $node);
+        print "<table class='gridtable'>";
+        printNode($node, $response);
+        print "</table>";
 }
+usleep(10000);
 exit;
 
 // Get status for this $node
