@@ -86,7 +86,7 @@ if (!empty($group)) {
         printNode($node, $response);
         print "</table>";
 }
-usleep(10000);
+#usleep(10000);
 exit;
 
 // Get status for this $node
@@ -296,12 +296,10 @@ function getAstInfo($nodeNum, $node=array()) {
 }
 
 function parseRptStatus($rptStatus, $sawStatus) {
-    #global $savedNodes;
 
     $curNodes = array();
     $links = array();
     $conns = array();
-    $alinks = array();
 
     // Parse 'rptStat Conn:' lines.
     $lines = split("\n", $rptStatus);
@@ -316,8 +314,7 @@ function parseRptStatus($rptStatus, $sawStatus) {
             }
         }
     }
-    #print "Conns: ";
-    #print_r($conns);
+    #print "<pre>Conns: \n"; print_r($conns); print "</pre>";
 
     // Parse 'sawStat Conn:' lines.
     $keyups = array();
@@ -329,44 +326,35 @@ function parseRptStatus($rptStatus, $sawStatus) {
         }
     }
     #print "<pre>====== \$keyups start ======\n"; print_r($keyups); print '====== end ======</pre>'; 
-    #print "Conns: ";
-    #print_r($conns);
 
     // Parse 'LinkedNodes:' line.
     if (preg_match("/LinkedNodes: (.*)/", $rptStatus, $matches)) {
-        $links = preg_split("/, /", trim($matches[1]));
+        $longRangeLinks = preg_split("/, /", trim($matches[1]));
     }
-    #print_r($links);
-
-    // Parse 'RPT_ALINKS' line. Contains keyed information.
-    if (preg_match("/Var: RPT_ALINKS=\d+,(.*)/", $rptStatus, $matches)) {
-        $alinks = preg_split("/,/", trim($matches[1]));
+    foreach ($longRangeLinks as $line) {
+        $n = substr($line,1);
+        $modes[$n]['mode'] = substr($line,0,1);
     }
-    #print_r($alinks);
 
     // Pull above arrays together into $curNodes
-    if (count($links) > 0 && $links[0] != "<NONE>") {
-        // Long range sensors.
-        foreach($links as $node) {
-            $mode = substr($node,0,1);
-            $nodeNum = substr($node,1);
-            $curNodes[$nodeNum]['node'] = $nodeNum;
-            $curNodes[$nodeNum]['ip'] = 'n/a';
-            $curNodes[$nodeNum]['direction'] = 'n/a';
-            $curNodes[$nodeNum]['elapsed'] = 'n/a';
-            $curNodes[$nodeNum]['link'] = 'n/a';
-            $curNodes[$nodeNum]['keyed'] = 'n/a';
-            $curNodes[$nodeNum]['last_keyed'] = 'n/a';
-            $curNodes[$nodeNum]['mode'] = $mode;
-        }
-
+    if (count($conns) > 0 ) {
         // Local connects
         foreach($conns as $node) {
-            $curNodes[$node[0]]['node'] = $node[0];
-            $curNodes[$node[0]]['ip'] = $node[1];
-            $curNodes[$node[0]]['direction'] = $node[3];
-            $curNodes[$node[0]]['elapsed'] = $node[4];
-            $curNodes[$node[0]]['link'] = @$node[5];
+            $n = $node[0];
+            $curNodes[$n]['node'] = $node[0];
+            $curNodes[$n]['ip'] = $node[1];
+            $curNodes[$n]['direction'] = $node[3];
+            $curNodes[$n]['elapsed'] = $node[4];
+            $curNodes[$n]['link'] = @$node[5];
+            $curNodes[$n]['keyed'] = 'n/a';
+            $curNodes[$n]['last_keyed'] = 'n/a';
+
+            // Get mode
+            if (isset($modes[$n])) {
+                $curNodes[$n]['mode'] = $modes[$n]['mode'];
+            } else {
+                $curNodes[$n]['mode'] = 'Local Monitor';
+            }
         }
 
         // Pullin keyed

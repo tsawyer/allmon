@@ -32,15 +32,11 @@ if (!file_exists('allmon.ini')) {
 $config = parse_ini_file('allmon.ini', true);
 #print "<pre>"; print_r($config); print "</pre>";
 
-// Type = voter, group or node for server.php?
+// Type = group or node for server.php?
 if (!empty($group)) {
     $type = 'group';
     $node = $group;
     $heading = $group;
-} elseif (!empty($voter)) {
-    $type='voter';
-    $node=$voter;
-    $heading = $voter;
 } else {
     $type = 'node';
     $nodeURL = "http://stats.allstarlink.org/nodeinfo.cgi?node=$node";
@@ -117,6 +113,7 @@ if (count($nodes) > 0) {
     Permanent <input type="checkbox">
     <input type="button" value="Connect" id="connect">
     <input type="button" value="Monitor" id="monitor">
+    <input type="button" value="Local Monitor" id="localmonitor">
 </div>
 
 <div id="link_list">Loading...</div>

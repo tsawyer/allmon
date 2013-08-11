@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
 
     // Ajax connect a link
-    $('#connect, #monitor, #permanent').click(function() {
+    $('#connect, #monitor, #permanent, #localmonitor').click(function() {
         var button = this.id;    // which button was pushed
         var node = $('#node').val(); 
         var perm = $('input:checkbox:checked').val();

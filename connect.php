@@ -42,6 +42,14 @@ if ($button == 'connect') {
         $ilink = 2;
         print "<b>Monitoring $node from $localnode</b>";
     }
+} elseif ($button == 'localmonitor') {
+    if ($perm == 'on') {
+        $ilink = 18;
+        print "<b>Permanent Local Monitoring $node from $localnode</b>";
+    } else {
+        $ilink = 8;
+        print "<b>Local Monitoring $node from $localnode</b>";
+    }
 }
 
 // Do it

@@ -61,9 +61,9 @@ if (array_key_exists($node, $astdb)) {
 <h2>
 <?php 
     if (empty($info)) {
-        print "Voter <a href='$nodeURL' target=_blank>$node</a>"; 
+        #print "Voter <a href='$nodeURL' target=_blank>$node</a>"; 
     } else {
-        print "Voter <a href='$nodeURL' target=_blank>$node</a> $info";
+        #print "Voter <a href='$nodeURL' target=_blank>$node</a> $info";
     }
 ?>
 </h2>
